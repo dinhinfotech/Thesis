@@ -1,0 +1,18 @@
+\begin{thebibliography}{1}
+
+\bibitem{cortes1995support}
+Corinna Cortes and Vladimir Vapnik.
+\newblock Support vector machine.
+\newblock {\em Machine learning}, 20(3):273--297, 1995.
+
+\bibitem{mitchell1997machine}
+Tom MITCHELL and McGraw HILL.
+\newblock {\em Machine Learning}.
+\newblock McGraw-Hill Science/Engineering/Math, 1997.
+
+\bibitem{vapnik1998statistical}
+Vladimir~Naumovich Vapnik and Vlamimir Vapnik.
+\newblock {\em Statistical learning theory}, volume~1.
+\newblock Wiley New York, 1998.
+
+\end{thebibliography}

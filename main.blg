@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: plain.bst
+Database file #1: thesisBib.bib
+Warning--I didn't find a database entry for "ledk"
+Warning--I didn't find a database entry for "mrf"
+Warning--I didn't find a database entry for "mdk"
+Warning--I didn't find a database entry for "rlk"
+You've used 3 entries,
+            2118 wiz_defined-function locations,
+            518 strings with 4326 characters,
+and the built_in function-call counts, 866 in all, are:
+= -- 80
+> -- 39
+< -- 1
++ -- 15
+- -- 12
+* -- 55
+:= -- 153
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 13
+chr.to.int$ -- 0
+cite$ -- 3
+duplicate$ -- 35
+empty$ -- 72
+format.name$ -- 12
+if$ -- 177
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 5
+newline$ -- 18
+num.names$ -- 6
+pop$ -- 20
+preamble$ -- 1
+purify$ -- 12
+quote$ -- 0
+skip$ -- 23
+stack$ -- 0
+substring$ -- 40
+swap$ -- 4
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 8
+warning$ -- 0
+while$ -- 8
+width$ -- 4
+write$ -- 34
+(There were 4 warnings)
