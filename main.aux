@@ -28,113 +28,446 @@
 \@writefile{lot}{\addvspace {10\p@ }}
 \@writefile{lof}{\contentsline {xchapter}{Introduction}{1}{chapter.1}}
 \@writefile{lot}{\contentsline {xchapter}{Introduction}{1}{chapter.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.1}Graph-based Data Integration}{1}{section.1.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.2}Challenges}{1}{section.1.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.1}Node Similarity Measure}{1}{subsection.1.2.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.2}Sparsity}{1}{subsection.1.2.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.3}Scalability}{1}{subsection.1.2.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.4}Effectiveness and Efficiency}{1}{subsection.1.2.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.3}State of the Art Graph-based Data Integration}{1}{section.1.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {1.4}Contributions}{1}{section.1.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.4.1}Conjuctive Disjuctive Graph Node Kernel}{1}{subsection.1.4.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.4.2}Joint Neighborhood Subgraphs for Link Prediction}{1}{subsection.1.4.2}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.4.3}Link Enrichment for Diffusion-based Graph Node Kernels}{1}{subsection.1.4.3}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.4.4}Scalable Kenrel-based Gene Prioritization}{1}{subsection.1.4.4}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {1.4.5}Disjunctive Interconnection Graphs for Disease Gene Prioritization}{1}{subsection.1.4.5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces Yeast protein interaction network}}{2}{figure.1.1}}
+\newlabel{fig:protein-interaction-net}{{1.1}{2}{Yeast protein interaction network}{figure.1.1}{}}
+\newlabel{fig:protein-interaction-net@cref}{{[figure][1][1]1.1}{2}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.1}Why graph-based biological data integration?}{2}{section.1.1}}
+\citation{cortes1995support}
+\@writefile{toc}{\contentsline {section}{\numberline {1.2}Kernel methods for graph-based data integration and challenges}{3}{section.1.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.1}Definition of node similarity measure}{3}{subsection.1.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.2}Sparsity}{3}{subsection.1.2.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.3}Scalability}{4}{subsection.1.2.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {1.2.4}Data integration methods}{4}{subsection.1.2.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.3}Contributions}{4}{section.1.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.4}Thesis roadmap}{6}{section.1.4}}
 \citation{mitchell1997machine}
-\@writefile{toc}{\contentsline {chapter}{\numberline {2}Background}{3}{chapter.2}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {2}Background}{7}{chapter.2}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{lof}{\contentsline {xchapter}{Background}{3}{chapter.2}}
-\@writefile{lot}{\contentsline {xchapter}{Background}{3}{chapter.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.1}Machine Learning}{3}{section.2.1}}
+\@writefile{lof}{\contentsline {xchapter}{Background}{7}{chapter.2}}
+\@writefile{lot}{\contentsline {xchapter}{Background}{7}{chapter.2}}
+\newlabel{chap:background}{{2}{7}{Background}{chapter.2}{}}
+\newlabel{chap:background@cref}{{[chapter][2][]2}{7}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.1}Machine Learning}{7}{section.2.1}}
+\newlabel{loss-function}{{2.1}{8}{Machine Learning}{equation.2.1.1}{}}
+\newlabel{loss-function@cref}{{[equation][1][2]2.1}{8}}
+\newlabel{opt-loss-function}{{2.2}{8}{Machine Learning}{equation.2.1.2}{}}
+\newlabel{opt-loss-function@cref}{{[equation][2][2]2.2}{8}}
 \citation{vapnik1998statistical}
 \citation{vapnik1998statistical}
-\newlabel{loss-function}{{2.1}{4}{Machine Learning}{equation.2.1.1}{}}
-\newlabel{loss-function@cref}{{[equation][1][2]2.1}{4}}
-\newlabel{opt-loss-function}{{2.2}{4}{Machine Learning}{equation.2.1.2}{}}
-\newlabel{opt-loss-function@cref}{{[equation][2][2]2.2}{4}}
 \citation{cortes1995support}
-\@writefile{toc}{\contentsline {section}{\numberline {2.2}Kernel Methods}{5}{section.2.2}}
-\newlabel{kernel-methods}{{2.2}{5}{Kernel Methods}{section.2.2}{}}
-\newlabel{kernel-methods@cref}{{[section][2][2]2.2}{5}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.3}Kernel functions}{5}{section.2.3}}
-\citation{ledk}
-\citation{ledk}
+\@writefile{toc}{\contentsline {section}{\numberline {2.2}Kernel Methods}{9}{section.2.2}}
+\newlabel{kernel-methods}{{2.2}{9}{Kernel Methods}{section.2.2}{}}
+\newlabel{kernel-methods@cref}{{[section][2][2]2.2}{9}}
+\citation{vert2004primer}
+\@writefile{toc}{\contentsline {section}{\numberline {2.3}Kernel functions}{10}{section.2.3}}
+\citation{kondor2002diffusion}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}Graph Kernels}{11}{subsection.2.3.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}Graph Node Kernels}{11}{subsection.2.3.2}}
+\citation{kondor2002diffusion}
+\citation{chen2014disease}
+\citation{fouss2006experimental}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.2.1}Laplacian exponential diffusion kernel}{12}{subsubsection.2.3.2.1}}
+\newlabel{LEDK-formula}{{2.5}{12}{Laplacian exponential diffusion kernel}{equation.2.3.5}{}}
+\newlabel{LEDK-formula@cref}{{[equation][5][2]2.5}{12}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.2.2}Exponential diffusion kernel}{12}{subsubsection.2.3.2.2}}
+\newlabel{MEDK-formula}{{2.6}{12}{Exponential diffusion kernel}{equation.2.3.6}{}}
+\newlabel{MEDK-formula@cref}{{[equation][6][2]2.6}{12}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.2.3}Markov diffusion kernel}{12}{subsubsection.2.3.2.3}}
+\citation{chebotarev2006matrix}
+\newlabel{MDK-formula}{{2.7}{13}{Markov diffusion kernel}{equation.2.3.7}{}}
+\newlabel{MDK-formula@cref}{{[equation][7][2]2.7}{13}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.3.2.4}Regularized Laplacian kernel}{13}{subsubsection.2.3.2.4}}
+\newlabel{RLK-formula}{{2.8}{13}{Regularized Laplacian kernel}{equation.2.3.8}{}}
+\newlabel{RLK-formula@cref}{{[equation][8][2]2.8}{13}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.4}Kernel machine}{13}{section.2.4}}
+\citation{vapnik1963pattern}
+\citation{boser1992training}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.1}Perceptron kernel algorithm}{14}{subsection.2.4.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4.2}Support vector machine}{15}{subsection.2.4.2}}
+\newlabel{decision_svm}{{2.9}{15}{Support vector machine}{equation.2.4.9}{}}
+\newlabel{decision_svm@cref}{{[equation][9][2]2.9}{15}}
+\newlabel{condition_svm}{{2.10}{15}{Support vector machine}{equation.2.4.10}{}}
+\newlabel{condition_svm@cref}{{[equation][10][2]2.10}{15}}
+\newlabel{optimization_svm}{{2.12}{15}{Support vector machine}{equation.2.4.12}{}}
+\newlabel{optimization_svm@cref}{{[equation][12][2]2.12}{15}}
+\newlabel{lagrange_svm}{{2.13}{15}{Support vector machine}{equation.2.4.13}{}}
+\newlabel{lagrange_svm@cref}{{[equation][13][2]2.13}{15}}
+\newlabel{optimization_softsvm}{{2.16}{16}{Support vector machine}{equation.2.4.16}{}}
+\newlabel{optimization_softsvm@cref}{{[equation][16][2]2.16}{16}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.5}Disease Gene Prioritization}{16}{section.2.5}}
+\citation{keshava2008human}
+\citation{chatr2014biogrid}
+\citation{wu2009biogps}
+\@writefile{toc}{\contentsline {section}{\numberline {2.6}Biological Datasets}{17}{section.2.6}}
+\citation{ogata1999kegg}
+\citation{vastrik2007reactome}
+\citation{whirl2012pharmacogenomics}
+\citation{schaefer2008pid}
+\citation{jensen2008string}
+\citation{mckusick2007mendelian}
+\citation{van2006text}
+\citation{van2006text}
+\@writefile{toc}{\contentsline {section}{\numberline {2.7}Link prediction}{18}{section.2.7}}
+\citation{adamic}
+\citation{katz}
+\citation{lhni}
+\citation{matrix-factorization}
+\citation{matrix-factorization}
+\citation{nonparametric}
+\citation{matrix-factorization}
+\citation{kondor2002diffusion}
+\citation{chen2014disease}
+\citation{fouss2006experimental}
+\citation{chebotarev2006matrix}
+\citation{haussler1999convolution}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}Conjunctive Disjunctive Graph Node Kernel}{21}{chapter.3}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{lof}{\contentsline {xchapter}{Conjunctive Disjunctive Graph Node Kernel}{21}{chapter.3}}
+\@writefile{lot}{\contentsline {xchapter}{Conjunctive Disjunctive Graph Node Kernel}{21}{chapter.3}}
+\newlabel{chap:cdnk}{{3}{21}{Conjunctive Disjunctive Graph Node Kernel}{chapter.3}{}}
+\newlabel{chap:cdnk@cref}{{[chapter][3][]3}{21}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Motivation}{21}{section.3.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Method}{22}{section.3.2}}
+\citation{gene2004gene}
+\citation{costa2010fast}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Gene Labeling}{23}{subsection.3.2.1}}
+\newlabel{sec:lab}{{3.2.1}{23}{Gene Labeling}{subsection.3.2.1}{}}
+\newlabel{sec:lab@cref}{{[subsection][1][3,2]3.2.1}{23}}
+\citation{haussler1999convolution}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Node Graph Kernels}{24}{subsection.3.2.2}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2.1}The Neighborhood Subgraph Pairwise Distance Kernel}{24}{subsubsection.3.2.2.1}}
+\newlabel{sec:k}{{3.2.2.1}{24}{The Neighborhood Subgraph Pairwise Distance Kernel}{subsubsection.3.2.2.1}{}}
+\newlabel{sec:k@cref}{{[subsubsection][1][3,2,2]3.2.2.1}{24}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2.2}The Conjunctive Disjunctive Node Kernel}{24}{subsubsection.3.2.2.2}}
+\citation{costa2010fast}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Pairwise neighborhood subgraphs for the ``red'' node with $r=1$ and $d=3$ using ``conjuction'' and ``disjuctive'' edges}}{25}{figure.3.1}}
+\newlabel{fig:cdnk}{{3.1}{25}{Pairwise neighborhood subgraphs for the ``red'' node with $r=1$ and $d=3$ using ``conjuction'' and ``disjuctive'' edges}{figure.3.1}{}}
+\newlabel{fig:cdnk@cref}{{[figure][1][3]3.1}{25}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}Real valued node information}{25}{subsection.3.2.3}}
+\citation{alvarez2005k}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.4}Network Decomposition}{26}{subsection.3.2.4}}
+\citation{tarjan1985decomposition}
+\citation{chen2014disease}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces K-core decomposition with degree threshold $D = 5$}}{27}{figure.3.2}}
+\newlabel{fig:example}{{3.2}{27}{K-core decomposition with degree threshold $D = 5$}{figure.3.2}{}}
+\newlabel{fig:example@cref}{{[figure][2][3]3.2}{27}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Clique decomposition with threshold $C = 4$}}{27}{figure.3.3}}
+\newlabel{fig:example}{{3.3}{27}{Clique decomposition with threshold $C = 4$}{figure.3.3}{}}
+\newlabel{fig:example@cref}{{[figure][3][3]3.3}{27}}
+\citation{chen2014disease}
+\citation{goh2007human}
+\citation{chen2014disease}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Experiments}{28}{section.3.3}}
+\@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces \textit  {Predictive performance on 11 gene-disease associations in percentage using network induced by the BioGPS. Best results in bold. We report the AUC ROC and the rank for each kernel method. CDNK1 = ontology for discrete labels, CDNK2 = ontology for both discrete and vector labels, CDNK3 = node degree for discrete labels and CDNK4 = node degree for discrete labels and ontology for vector label.}}}{29}{table.3.1}}
+\newlabel{table_biogps}{{3.1}{29}{\textit {Predictive performance on 11 gene-disease associations in percentage using network induced by the BioGPS. Best results in bold. We report the AUC ROC and the rank for each kernel method. CDNK1 = ontology for discrete labels, CDNK2 = ontology for both discrete and vector labels, CDNK3 = node degree for discrete labels and CDNK4 = node degree for discrete labels and ontology for vector label.}}{table.3.1}{}}
+\newlabel{table_biogps@cref}{{[table][1][3]3.1}{29}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}Results and discussion}{29}{section.3.4}}
+\@writefile{lot}{\contentsline {table}{\numberline {3.2}{\ignorespaces \textit  {Predictive performance on 11 gene-disease associations in percentage using network induced by the Pathways. Best results in bold. We report the AUC ROC and the rank for each kernel method. CDNK1 = ontology for discrete labels, CDNK2 = ontology for both discrete and vector labels, CDNK3 = node degree for discrete labels and CDNK4 = node degree for discrete labels and ontology for vector label.}}}{30}{table.3.2}}
+\newlabel{table_pathways}{{3.2}{30}{\textit {Predictive performance on 11 gene-disease associations in percentage using network induced by the Pathways. Best results in bold. We report the AUC ROC and the rank for each kernel method. CDNK1 = ontology for discrete labels, CDNK2 = ontology for both discrete and vector labels, CDNK3 = node degree for discrete labels and CDNK4 = node degree for discrete labels and ontology for vector label.}}{table.3.2}{}}
+\newlabel{table_pathways@cref}{{[table][2][3]3.2}{30}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.5}Conclusion}{31}{section.3.5}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Joint Neighborhood Subgraphs for Link Prediction}{33}{chapter.4}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{lof}{\contentsline {xchapter}{Joint Neighborhood Subgraphs for Link Prediction}{33}{chapter.4}}
+\@writefile{lot}{\contentsline {xchapter}{Joint Neighborhood Subgraphs for Link Prediction}{33}{chapter.4}}
+\newlabel{chap:jnsl}{{4}{33}{Joint Neighborhood Subgraphs for Link Prediction}{chapter.4}{}}
+\newlabel{chap:jnsl@cref}{{[chapter][4][]4}{33}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Motivation}{33}{section.4.1}}
+\citation{adamic}
+\citation{katz}
+\citation{lhni}
+\citation{matrix-factorization}
+\citation{matrix-factorization}
+\citation{nonparametric}
+\citation{matrix-factorization}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Method}{35}{section.4.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Definitions and notation}{35}{subsection.4.2.1}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}Link encoding as subgraphs union}{35}{subsection.4.2.2}}
+\newlabel{sec:link}{{4.2.2}{35}{Link encoding as subgraphs union}{subsection.4.2.2}{}}
+\newlabel{sec:link@cref}{{[subsection][2][4,2]4.2.2}{35}}
+\citation{nspdk}
+\citation{convolution-kernel}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Left) We represent with solid lines edges belonging to the training material and with a dotted line edges belonging to the test material. Right) joint neighborhood subgraphs for an existing (green endpoints) (top) and a non existing (red endpoints) link (bottom). These graphs will receive respectively a positive and a negative target.}}{36}{figure.4.1}}
+\newlabel{fig:example}{{4.1}{36}{Left) We represent with solid lines edges belonging to the training material and with a dotted line edges belonging to the test material. Right) joint neighborhood subgraphs for an existing (green endpoints) (top) and a non existing (red endpoints) link (bottom). These graphs will receive respectively a positive and a negative target}{figure.4.1}{}}
+\newlabel{fig:example@cref}{{[figure][1][4]4.1}{36}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}Node labeling}{36}{subsection.4.2.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.4}The graph kernel}{36}{subsection.4.2.4}}
+\citation{svm}
+\citation{matrix-factorization}
+\citation{protein-protein}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.5}Joint neighborhood subgraphs link prediction}{37}{subsection.4.2.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Experiments}{37}{section.4.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}Empirical evaluation}{37}{section.4.4}}
+\citation{metabolic}
+\citation{nips}
+\citation{condmat}
+\citation{conflict1}
+\citation{conflict2}
+\citation{pa}
+\citation{matrix-factorization}
+\citation{matrix-factorization}
+\citation{matrix-factorization}
+\citation{pa}
+\citation{matrix-factorization}
+\citation{matrix-factorization}
+\citation{matrix-factorization}
+\@writefile{toc}{\contentsline {section}{\numberline {4.5}Results and discussion}{38}{section.4.5}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces AUC-ROC performance on 6 datasets. Legend: AA: Adamic-Adar, PA \cite  {pa} preferential Attachment, SHP: Shortest Path, Sup-Top \cite  {matrix-factorization}: Liear regression running on unsupervised scores, SVD \cite  {matrix-factorization}: Singular value decomposition, Fact+Scores \cite  {matrix-factorization}: Factorization with unsupervised scores, JNSL: joint neighborhood subgraph link (our method). In bold the highest score.}}{39}{table.4.1}}
+\newlabel{result_table}{{4.1}{39}{AUC-ROC performance on 6 datasets. Legend: AA: Adamic-Adar, PA \cite {pa} preferential Attachment, SHP: Shortest Path, Sup-Top \cite {matrix-factorization}: Liear regression running on unsupervised scores, SVD \cite {matrix-factorization}: Singular value decomposition, Fact+Scores \cite {matrix-factorization}: Factorization with unsupervised scores, JNSL: joint neighborhood subgraph link (our method). In bold the highest score}{table.4.1}{}}
+\newlabel{result_table@cref}{{[table][1][4]4.1}{39}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.6}Conclusion}{39}{section.4.6}}
+\citation{proceeding1}
+\citation{jour1}
+\citation{proceeding2}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Link Enrichment for Diffusion-based Graph Node Kernel}{41}{chapter.5}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{lof}{\contentsline {xchapter}{Link Enrichment for Diffusion-based Graph Node Kernel}{41}{chapter.5}}
+\@writefile{lot}{\contentsline {xchapter}{Link Enrichment for Diffusion-based Graph Node Kernel}{41}{chapter.5}}
+\newlabel{chap:link-enrichment}{{5}{41}{Link Enrichment for Diffusion-based Graph Node Kernel}{chapter.5}{}}
+\newlabel{chap:link-enrichment@cref}{{[chapter][5][]5}{41}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Motivation}{41}{section.5.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.2}Method}{42}{section.5.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.3}Experiments}{42}{section.5.3}}
+\newlabel{evaluation}{{5.3}{42}{Experiments}{section.5.3}{}}
+\newlabel{evaluation@cref}{{[section][3][5]5.3}{42}}
+\citation{jour6}
+\citation{jour5}
+\citation{jour4}
+\citation{jour7}
+\citation{jour7}
+\citation{proceeding3}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3.1}Evaluation Method}{43}{subsection.5.3.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.4}Results and discussion}{44}{section.5.4}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.5}Results and Discussion}{44}{section.5.5}}
+\newlabel{results-discussion}{{5.5}{44}{Results and Discussion}{section.5.5}{}}
+\newlabel{results-discussion@cref}{{[section][5][5]5.5}{44}}
+\@writefile{lot}{\contentsline {table}{\numberline {5.1}{\ignorespaces \textit  {Predictive performance on 14 gene-disease associations using four different graphs induced by the BioGPS, Biogridphys, Hprd and Omim. We report the average AUC-ROC (\%) and standard deviations for all difussion-based kernels with (+) and without (-) link enrichment.}}}{45}{table.5.1}}
+\newlabel{table:results1}{{5.1}{45}{\textit {Predictive performance on 14 gene-disease associations using four different graphs induced by the BioGPS, Biogridphys, Hprd and Omim. We report the average AUC-ROC (\%) and standard deviations for all difussion-based kernels with (+) and without (-) link enrichment.}}{table.5.1}{}}
+\newlabel{table:results1@cref}{{[table][1][5]5.1}{45}}
+\@writefile{toc}{\contentsline {section}{\numberline {5.6}Conclusion}{46}{section.5.6}}
+\citation{strachan}
+\citation{botstein}
+\citation{omim}
+\citation{strachan}
+\citation{botstein}
+\citation{strachan}
+\citation{salgado}
+\citation{strachan}
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Scuba - Scalable Kernel-based Gene Prioritization}{47}{chapter.6}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{lof}{\contentsline {xchapter}{Scuba - Scalable Kernel-based Gene Prioritization}{47}{chapter.6}}
+\@writefile{lot}{\contentsline {xchapter}{Scuba - Scalable Kernel-based Gene Prioritization}{47}{chapter.6}}
+\newlabel{chap:scuba}{{6}{47}{Scuba - Scalable Kernel-based Gene Prioritization}{chapter.6}{}}
+\newlabel{chap:scuba@cref}{{[chapter][6][]6}{47}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.1}Motivation}{47}{section.6.1}}
+\citation{moreau}
+\citation{ritchie}
+\citation{cristianini}
+\citation{gonen}
+\citation{wang}
+\citation{borgwardt}
+\citation{debie}
+\citation{mkl1class}
+\citation{prodige}
+\citation{zakeri}
+\citation{debie}
+\citation{prodige}
+\citation{chapelle}
+\citation{zakeri}
+\citation{wang}
+\citation{easymkl}
+\citation{komd}
+\citation{f3pc}
+\citation{devijver}
+\citation{omim}
+\citation{bornigen}
+\citation{prodige}
+\citation{chapelle}
+\citation{dk}
 \citation{mrf}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}Perceptron Method}{6}{subsection.2.3.1}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}Support Vector Machine}{6}{subsection.2.3.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.4}Graph Node Kernels}{6}{section.2.4}}
-\newlabel{LEDK-formula}{{2.4}{6}{}{equation.2.4.4}{}}
-\newlabel{LEDK-formula@cref}{{[equation][4][2]2.4}{6}}
 \citation{mdk}
 \citation{rlk}
-\newlabel{MEDK-formula}{{2.5}{7}{}{equation.2.4.5}{}}
-\newlabel{MEDK-formula@cref}{{[equation][5][2]2.5}{7}}
-\newlabel{MDK-formula}{{2.6}{7}{}{equation.2.4.6}{}}
-\newlabel{MDK-formula@cref}{{[equation][6][2]2.6}{7}}
-\newlabel{RLK-formula}{{2.7}{7}{}{equation.2.4.7}{}}
-\newlabel{RLK-formula@cref}{{[equation][7][2]2.7}{7}}
-\@writefile{toc}{\contentsline {section}{\numberline {2.5}Disease Gene Prioritization}{7}{section.2.5}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {3}Conjunctive Disjunctive Graph Node Kernel}{9}{chapter.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {6.2}Method}{50}{section.6.2}}
+\citation{easymkl}
+\citation{gonen}
+\citation{wang}
+\citation{easymkl}
+\citation{komd}
+\citation{komd}
+\citation{easymkl}
+\citation{pyros}
+\newlabel{easymkl_quad_opt}{{6.4}{52}{}{equation.6.2.4}{}}
+\newlabel{easymkl_quad_opt@cref}{{[equation][4][6]6.4}{52}}
+\newlabel{eta}{{6.5}{52}{}{equation.6.2.5}{}}
+\newlabel{eta@cref}{{[equation][5][6]6.5}{52}}
+\newlabel{scuba_opt}{{6.6}{54}{}{equation.6.2.6}{}}
+\newlabel{scuba_opt@cref}{{[equation][6][6]6.6}{54}}
+\newlabel{score_function}{{6.7}{54}{}{equation.6.2.7}{}}
+\newlabel{score_function@cref}{{[equation][7][6]6.7}{54}}
+\newlabel{basekernels}{{6.2}{54}{}{equation.6.2.7}{}}
+\newlabel{basekernels@cref}{{[section][2][6]6.2}{54}}
+\citation{f3pc}
+\citation{hprd}
+\citation{biogps}
+\citation{kegg}
+\citation{reactome}
+\citation{pharmgkb}
+\citation{pid}
+\citation{string}
+\citation{f3pc}
+\citation{goh}
+\citation{bornigen}
+\citation{hpo}
+\citation{debie}
+\citation{mkl1class}
+\citation{prodige}
+\citation{f3pc}
+\citation{hprd}
+\citation{biogps}
+\citation{kegg}
+\citation{reactome}
+\citation{pharmgkb}
+\citation{pid}
+\citation{string}
+\@writefile{toc}{\contentsline {section}{\numberline {6.3}Experiments}{57}{section.6.3}}
+\citation{f3pc}
+\citation{goh}
+\citation{bornigen}
+\citation{hpo}
+\citation{debie}
+\citation{mkl1class}
+\citation{prodige}
+\citation{f3pc}
+\citation{goh}
+\citation{f3pc}
+\citation{hanley}
+\citation{kegg}
+\newlabel{unbiased}{{6.3}{59}{}{section.6.3}{}}
+\newlabel{unbiased@cref}{{[section][3][6]6.3}{59}}
+\citation{bornigen}
+\citation{string}
+\citation{ensembl}
+\citation{mkl1class}
+\citation{prodige}
+\citation{bornigen}
+\citation{genedistiller}
+\citation{endeavour}
+\citation{toppgene}
+\citation{bornigen}
+\citation{pinta}
+\citation{hpo}
+\citation{noncode}
+\@writefile{toc}{\contentsline {section}{\numberline {6.4}Results and discussion}{61}{section.6.4}}
+\citation{prodige}
+\@writefile{toc}{\contentsline {section}{\numberline {6.5}Conclusion}{63}{section.6.5}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {7}Disjuctive Interconnection Graphs for Disease Gene Prioritization}{65}{chapter.7}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{lof}{\contentsline {xchapter}{Conjunctive Disjunctive Graph Node Kernel}{9}{chapter.3}}
-\@writefile{lot}{\contentsline {xchapter}{Conjunctive Disjunctive Graph Node Kernel}{9}{chapter.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.1}Motivation}{9}{section.3.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}Method}{9}{section.3.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}Experiments}{9}{section.3.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.4}Analysis}{9}{section.3.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.5}Conclusion}{9}{section.3.5}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}Joint Neighborhood Subgraphs for Link Prediction}{11}{chapter.4}}
-\@writefile{lof}{\addvspace {10\p@ }}
-\@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{lof}{\contentsline {xchapter}{Joint Neighborhood Subgraphs for Link Prediction}{11}{chapter.4}}
-\@writefile{lot}{\contentsline {xchapter}{Joint Neighborhood Subgraphs for Link Prediction}{11}{chapter.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}Motivation}{11}{section.4.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Method}{11}{section.4.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.3}Experiments}{11}{section.4.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.4}Analysis}{11}{section.4.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.5}Conclusion}{11}{section.4.5}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}Link Enrichment for Diffusion-based Graph Node Kernel}{13}{chapter.5}}
-\@writefile{lof}{\addvspace {10\p@ }}
-\@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{lof}{\contentsline {xchapter}{Link Enrichment for Diffusion-based Graph Node Kernel}{13}{chapter.5}}
-\@writefile{lot}{\contentsline {xchapter}{Link Enrichment for Diffusion-based Graph Node Kernel}{13}{chapter.5}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.1}Motivation}{13}{section.5.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.2}Method}{13}{section.5.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.3}Experiments}{13}{section.5.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.4}Analysis}{13}{section.5.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {5.5}Conclusion}{13}{section.5.5}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Scuba - Scalable Kernel-based Gene Prioritization}{15}{chapter.6}}
-\@writefile{lof}{\addvspace {10\p@ }}
-\@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{lof}{\contentsline {xchapter}{Scuba - Scalable Kernel-based Gene Prioritization}{15}{chapter.6}}
-\@writefile{lot}{\contentsline {xchapter}{Scuba - Scalable Kernel-based Gene Prioritization}{15}{chapter.6}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.1}Motivation}{15}{section.6.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.2}Method}{15}{section.6.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.3}Experiments}{15}{section.6.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.4}Analysis}{15}{section.6.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {6.5}Conclusion}{15}{section.6.5}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {7}Disjuctive Interconnection Graphs for Disease Gene Prioritization}{17}{chapter.7}}
-\@writefile{lof}{\addvspace {10\p@ }}
-\@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{lof}{\contentsline {xchapter}{Disjuctive Interconnection Graphs for Disease Gene Prioritization}{17}{chapter.7}}
-\@writefile{lot}{\contentsline {xchapter}{Disjuctive Interconnection Graphs for Disease Gene Prioritization}{17}{chapter.7}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.1}Motivation}{17}{section.7.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.2}Method}{17}{section.7.2}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.3}Experiments}{17}{section.7.3}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.4}Analysis}{17}{section.7.4}}
-\@writefile{toc}{\contentsline {section}{\numberline {7.5}Conclusion}{17}{section.7.5}}
+\@writefile{lof}{\contentsline {xchapter}{Disjuctive Interconnection Graphs for Disease Gene Prioritization}{65}{chapter.7}}
+\@writefile{lot}{\contentsline {xchapter}{Disjuctive Interconnection Graphs for Disease Gene Prioritization}{65}{chapter.7}}
+\newlabel{chap:digi}{{7}{65}{Disjuctive Interconnection Graphs for Disease Gene Prioritization}{chapter.7}{}}
+\newlabel{chap:digi@cref}{{[chapter][7][]7}{65}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.1}Motivation}{65}{section.7.1}}
+\citation{epu}
+\citation{pudi}
+\citation{dir}
+\@writefile{toc}{\contentsline {section}{\numberline {7.2}Related work}{66}{section.7.2}}
+\citation{prodige}
+\citation{mrf}
+\citation{f3pc}
+\citation{scuba}
+\citation{rwr}
+\citation{suspect}
+\citation{toppgene}
+\citation{genedistiller}
+\citation{genewanderer}
+\citation{posmed}
+\citation{candid}
+\citation{endeavour}
+\citation{pinta}
+\citation{unbiased_evaluation}
+\@writefile{toc}{\contentsline {section}{\numberline {7.3}Method}{68}{section.7.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.1}Background, definition and notations}{68}{subsection.7.3.1}}
+\citation{cdnk}
+\citation{nspdk}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.1}{\ignorespaces CDNK}}{69}{figure.7.1}}
+\newlabel{fig:01}{{7.1}{69}{CDNK}{figure.7.1}{}}
+\newlabel{fig:01@cref}{{[figure][1][7]7.1}{69}}
+\citation{cdnk}
+\citation{cdnk}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3.2}Disjunctive interconnection graph integration}{70}{subsection.7.3.2}}
+\newlabel{network-decomposition}{{7.3.2}{70}{}{figure.7.2}{}}
+\newlabel{network-decomposition@cref}{{[subsection][2][7,3]7.3.2}{70}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.2}{\ignorespaces Graph Disjunctive Interconnection Illustration}}{71}{figure.7.2}}
+\newlabel{fig:graph_interconnection}{{7.2}{71}{Graph Disjunctive Interconnection Illustration}{figure.7.2}{}}
+\newlabel{fig:graph_interconnection@cref}{{[figure][2][7]7.2}{71}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.3}{\ignorespaces K-core decomposition}}{71}{figure.7.3}}
+\newlabel{fig:01}{{7.3}{71}{K-core decomposition}{figure.7.3}{}}
+\newlabel{fig:01@cref}{{[figure][3][7]7.3}{71}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.4}{\ignorespaces Clique decomposition}}{72}{figure.7.4}}
+\newlabel{fig:01}{{7.4}{72}{Clique decomposition}{figure.7.4}{}}
+\newlabel{fig:01@cref}{{[figure][4][7]7.4}{72}}
+\citation{hprd1}
+\citation{hprd2}
+\citation{biogps1}
+\citation{biogps2}
+\citation{kegg}
+\citation{reactome}
+\citation{pharmgkb}
+\citation{pid}
+\@writefile{toc}{\contentsline {section}{\numberline {7.4}Experiments}{73}{section.7.4}}
+\citation{string}
+\citation{f3pc}
+\citation{unbiased_evaluation}
+\citation{string}
+\citation{ensembl}
+\@writefile{toc}{\contentsline {section}{\numberline {7.5}Results and discussion}{76}{section.7.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {7.6}Conclusion}{76}{section.7.6}}
+\@writefile{lot}{\contentsline {table}{\numberline {7.1}{\ignorespaces Performance of DIGI comparing with Scuba and other web tools on unbiased setting}}{77}{table.7.1}}
+\newlabel{tab:unbiased_evalutation}{{7.1}{77}{Performance of DIGI comparing with Scuba and other web tools on unbiased setting}{table.7.1}{}}
+\newlabel{tab:unbiased_evalutation@cref}{{[table][1][7]7.1}{77}}
+\@writefile{lot}{\contentsline {table}{\numberline {7.2}{\ignorespaces Performance of different methods on Cross validation setting}}{77}{table.7.2}}
+\newlabel{tab:cross_validation_evaluation}{{7.2}{77}{Performance of different methods on Cross validation setting}{table.7.2}{}}
+\newlabel{tab:cross_validation_evaluation@cref}{{[table][2][7]7.2}{77}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.5}{\ignorespaces Top Rank Histogram for Genome-Wide Setting}}{78}{figure.7.5}}
+\newlabel{fig:histogram-candidate}{{7.5}{78}{Top Rank Histogram for Genome-Wide Setting}{figure.7.5}{}}
+\newlabel{fig:histogram-candidate@cref}{{[figure][5][7]7.5}{78}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7.6}{\ignorespaces Top Rank Histogram for Candidate Setting}}{78}{figure.7.6}}
+\newlabel{fig:histogram-candidate}{{7.6}{78}{Top Rank Histogram for Candidate Setting}{figure.7.6}{}}
+\newlabel{fig:histogram-candidate@cref}{{[figure][6][7]7.6}{78}}
 \bibdata{thesisBib}
-\@writefile{toc}{\contentsline {chapter}{\numberline {8}Conclusion and Future Work}{19}{chapter.8}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {8}Conclusion and Future Work}{79}{chapter.8}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{lof}{\contentsline {xchapter}{Conclusion and Future Work}{19}{chapter.8}}
-\@writefile{lot}{\contentsline {xchapter}{Conclusion and Future Work}{19}{chapter.8}}
-\bibcite{cortes1995support}{1}
-\bibcite{mitchell1997machine}{2}
-\bibcite{vapnik1998statistical}{3}
+\@writefile{lof}{\contentsline {xchapter}{Conclusion and Future Work}{79}{chapter.8}}
+\@writefile{lot}{\contentsline {xchapter}{Conclusion and Future Work}{79}{chapter.8}}
+\newlabel{chap:conclusion}{{8}{79}{Conclusion and Future Work}{chapter.8}{}}
+\newlabel{chap:conclusion@cref}{{[chapter][8][]8}{79}}
+\bibcite{boser1992training}{1}
+\bibcite{chatr2014biogrid}{2}
+\bibcite{chebotarev2006matrix}{3}
+\bibcite{chen2014disease}{4}
+\bibcite{cortes1995support}{5}
+\bibcite{fouss2006experimental}{6}
+\bibcite{jensen2008string}{7}
+\@writefile{@@@}{\chapterbegin }
+\bibcite{keshava2008human}{8}
+\bibcite{kondor2002diffusion}{9}
+\bibcite{mckusick2007mendelian}{10}
+\bibcite{mitchell1997machine}{11}
+\bibcite{ogata1999kegg}{12}
+\bibcite{schaefer2008pid}{13}
+\bibcite{van2006text}{14}
+\bibcite{vapnik1963pattern}{15}
+\bibcite{vapnik1998statistical}{16}
+\bibcite{vastrik2007reactome}{17}
+\bibcite{vert2004primer}{18}
+\bibcite{whirl2012pharmacogenomics}{19}
+\bibcite{wu2009biogps}{20}
 \bibstyle{plain}
 \global\mtcsecondpartfalse
-\@writefile{@@@}{\chapterbegin }

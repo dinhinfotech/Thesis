@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  28 AUG 2017 15:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  24 SEP 2017 20:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1041,156 +1041,242 @@ Package minitoc Info: I0025
 {\reset@font\ptcCfont\mtc@string\contentsline{chapter}{\noexpand \leavevmode \n
 umberline {1}Introduction}{\reset@font\ptcCfont 1}{chapter.1}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {1.1}Graph-based Data Integration}{\reset@font\ptcSfont 1}{section.1.
-1}}
+umberline {1.1}Why graph-based biological data integration?}{\reset@font\ptcSfo
+nt 2}{section.1.1}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {1.2}Challenges}{\reset@font\ptcSfont 1}{section.1.2}}
+umberline {1.2}Kernel methods for graph-based data integration and challenges}{
+\reset@font\ptcSfont 3}{section.1.2}}
 {\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
-e \numberline {1.2.1}Node Similarity Measure}{\reset@font\ptcSSfont 1}{subsecti
-on.1.2.1}}
+e \numberline {1.2.1}Definition of node similarity measure}{\reset@font\ptcSSfo
+nt 3}{subsection.1.2.1}}
 {\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
-e \numberline {1.2.2}Sparsity}{\reset@font\ptcSSfont 1}{subsection.1.2.2}}
+e \numberline {1.2.2}Sparsity}{\reset@font\ptcSSfont 3}{subsection.1.2.2}}
 {\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
-e \numberline {1.2.3}Scalability}{\reset@font\ptcSSfont 1}{subsection.1.2.3}}
+e \numberline {1.2.3}Scalability}{\reset@font\ptcSSfont 4}{subsection.1.2.3}}
 {\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
-e \numberline {1.2.4}Effectiveness and Efficiency}{\reset@font\ptcSSfont 1}{sub
-section.1.2.4}}
+e \numberline {1.2.4}Data integration methods}{\reset@font\ptcSSfont 4}{subsect
+ion.1.2.4}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {1.3}State of the Art Graph-based Data Integration}{\reset@font\ptcSf
-ont 1}{section.1.3}}
+umberline {1.3}Contributions}{\reset@font\ptcSfont 4}{section.1.3}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {1.4}Contributions}{\reset@font\ptcSfont 1}{section.1.4}}
-{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
-e \numberline {1.4.1}Conjuctive Disjuctive Graph Node Kernel}{\reset@font\ptcSS
-font 1}{subsection.1.4.1}}
-{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
-e \numberline {1.4.2}Joint Neighborhood Subgraphs for Link Prediction}{\reset@f
-ont\ptcSSfont 1}{subsection.1.4.2}}
-{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
-e \numberline {1.4.3}Link Enrichment for Diffusion-based Graph Node Kernels}{\r
-eset@font\ptcSSfont 1}{subsection.1.4.3}}
-{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
-e \numberline {1.4.4}Scalable Kenrel-based Gene Prioritization}{\reset@font\ptc
-SSfont 1}{subsection.1.4.4}}
-{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
-e \numberline {1.4.5}Disjunctive Interconnection Graphs for Disease Gene Priori
-tization}{\reset@font\ptcSSfont 1}{subsection.1.4.5}}
+umberline {1.4}Thesis roadmap}{\reset@font\ptcSfont 6}{section.1.4}}
 {\reset@font\ptcCfont\mtc@string\contentsline{chapter}{\noexpand \leavevmode \n
-umberline {2}Background}{\reset@font\ptcCfont 3}{chapter.2}}
+umberline {2}Background}{\reset@font\ptcCfont 7}{chapter.2}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {2.1}Machine Learning}{\reset@font\ptcSfont 3}{section.2.1}}
+umberline {2.1}Machine Learning}{\reset@font\ptcSfont 7}{section.2.1}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {2.2}Kernel Methods}{\reset@font\ptcSfont 5}{section.2.2}}
+umberline {2.2}Kernel Methods}{\reset@font\ptcSfont 9}{section.2.2}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {2.3}Kernel functions}{\reset@font\ptcSfont 5}{section.2.3}}
+umberline {2.3}Kernel functions}{\reset@font\ptcSfont 10}{section.2.3}}
 {\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
-e \numberline {2.3.1}Perceptron Method}{\reset@font\ptcSSfont 6}{subsection.2.3
-.1}}
+e \numberline {2.3.1}Graph Kernels}{\reset@font\ptcSSfont 11}{subsection.2.3.1}
+}
 {\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
-e \numberline {2.3.2}Support Vector Machine}{\reset@font\ptcSSfont 6}{subsectio
-n.2.3.2}}
+e \numberline {2.3.2}Graph Node Kernels}{\reset@font\ptcSSfont 11}{subsection.2
+.3.2}}
+{\reset@font\ptcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leave
+vmode \numberline {2.3.2.1}Laplacian exponential diffusion kernel}{\reset@font\
+ptcSSSfont 12}{subsubsection.2.3.2.1}}
+{\reset@font\ptcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leave
+vmode \numberline {2.3.2.2}Exponential diffusion kernel}{\reset@font\ptcSSSfont
+ 12}{subsubsection.2.3.2.2}}
+{\reset@font\ptcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leave
+vmode \numberline {2.3.2.3}Markov diffusion kernel}{\reset@font\ptcSSSfont 12}{
+subsubsection.2.3.2.3}}
+{\reset@font\ptcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leave
+vmode \numberline {2.3.2.4}Regularized Laplacian kernel}{\reset@font\ptcSSSfont
+ 13}{subsubsection.2.3.2.4}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {2.4}Graph Node Kernels}{\reset@font\ptcSfont 6}{section.2.4}}
+umberline {2.4}Kernel machine}{\reset@font\ptcSfont 13}{section.2.4}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
+e \numberline {2.4.1}Perceptron kernel algorithm}{\reset@font\ptcSSfont 14}{sub
+section.2.4.1}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
+e \numberline {2.4.2}Support vector machine}{\reset@font\ptcSSfont 15}{subsecti
+on.2.4.2}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {2.5}Disease Gene Prioritization}{\reset@font\ptcSfont 7}{section.2.5
-}}
+umberline {2.5}Disease Gene Prioritization}{\reset@font\ptcSfont 16}{section.2.
+5}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
+umberline {2.6}Biological Datasets}{\reset@font\ptcSfont 17}{section.2.6}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
+umberline {2.7}Link prediction}{\reset@font\ptcSfont 18}{section.2.7}}
 {\reset@font\ptcCfont\mtc@string\contentsline{chapter}{\noexpand \leavevmode \n
-umberline {3}Conjunctive Disjunctive Graph Node Kernel}{\reset@font\ptcCfont 9}
-{chapter.3}}
+umberline {3}Conjunctive Disjunctive Graph Node Kernel}{\reset@font\ptcCfont 21
+}{chapter.3}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {3.1}Motivation}{\reset@font\ptcSfont 9}{section.3.1}}
+umberline {3.1}Motivation}{\reset@font\ptcSfont 21}{section.3.1}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {3.2}Method}{\reset@font\ptcSfont 9}{section.3.2}}
+umberline {3.2}Method}{\reset@font\ptcSfont 22}{section.3.2}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
+e \numberline {3.2.1}Gene Labeling}{\reset@font\ptcSSfont 23}{subsection.3.2.1}
+}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
+e \numberline {3.2.2}Node Graph Kernels}{\reset@font\ptcSSfont 24}{subsection.3
+.2.2}}
+{\reset@font\ptcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leave
+vmode \numberline {3.2.2.1}The Neighborhood Subgraph Pairwise Distance Kernel}{
+\reset@font\ptcSSSfont 24}{subsubsection.3.2.2.1}}
+{\reset@font\ptcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leave
+vmode \numberline {3.2.2.2}The Conjunctive Disjunctive Node Kernel}{\reset@font
+\ptcSSSfont 24}{subsubsection.3.2.2.2}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
+e \numberline {3.2.3}Real valued node information}{\reset@font\ptcSSfont 25}{su
+bsection.3.2.3}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
+e \numberline {3.2.4}Network Decomposition}{\reset@font\ptcSSfont 26}{subsectio
+n.3.2.4}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {3.3}Experiments}{\reset@font\ptcSfont 9}{section.3.3}}
+umberline {3.3}Experiments}{\reset@font\ptcSfont 28}{section.3.3}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {3.4}Analysis}{\reset@font\ptcSfont 9}{section.3.4}}
+umberline {3.4}Results and discussion}{\reset@font\ptcSfont 29}{section.3.4}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {3.5}Conclusion}{\reset@font\ptcSfont 9}{section.3.5}}
+umberline {3.5}Conclusion}{\reset@font\ptcSfont 31}{section.3.5}}
 {\reset@font\ptcCfont\mtc@string\contentsline{chapter}{\noexpand \leavevmode \n
 umberline {4}Joint Neighborhood Subgraphs for Link Prediction}{\reset@font\ptcC
-font 11}{chapter.4}}
+font 33}{chapter.4}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {4.1}Motivation}{\reset@font\ptcSfont 11}{section.4.1}}
+umberline {4.1}Motivation}{\reset@font\ptcSfont 33}{section.4.1}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {4.2}Method}{\reset@font\ptcSfont 11}{section.4.2}}
+umberline {4.2}Method}{\reset@font\ptcSfont 35}{section.4.2}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
+e \numberline {4.2.1}Definitions and notation}{\reset@font\ptcSSfont 35}{subsec
+tion.4.2.1}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
+e \numberline {4.2.2}Link encoding as subgraphs union}{\reset@font\ptcSSfont 35
+}{subsection.4.2.2}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
+e \numberline {4.2.3}Node labeling}{\reset@font\ptcSSfont 36}{subsection.4.2.3}
+}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
+e \numberline {4.2.4}The graph kernel}{\reset@font\ptcSSfont 36}{subsection.4.2
+.4}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
+e \numberline {4.2.5}Joint neighborhood subgraphs link prediction}{\reset@font\
+ptcSSfont 37}{subsection.4.2.5}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {4.3}Experiments}{\reset@font\ptcSfont 11}{section.4.3}}
+umberline {4.3}Experiments}{\reset@font\ptcSfont 37}{section.4.3}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {4.4}Analysis}{\reset@font\ptcSfont 11}{section.4.4}}
+umberline {4.4}Empirical evaluation}{\reset@font\ptcSfont 37}{section.4.4}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {4.5}Conclusion}{\reset@font\ptcSfont 11}{section.4.5}}
+umberline {4.5}Results and discussion}{\reset@font\ptcSfont 38}{section.4.5}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
+umberline {4.6}Conclusion}{\reset@font\ptcSfont 39}{section.4.6}}
 {\reset@font\ptcCfont\mtc@string\contentsline{chapter}{\noexpand \leavevmode \n
 umberline {5}Link Enrichment for Diffusion-based Graph Node Kernel}{\reset@font
-\ptcCfont 13}{chapter.5}}
+\ptcCfont 41}{chapter.5}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {5.1}Motivation}{\reset@font\ptcSfont 13}{section.5.1}}
+umberline {5.1}Motivation}{\reset@font\ptcSfont 41}{section.5.1}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {5.2}Method}{\reset@font\ptcSfont 13}{section.5.2}}
+umberline {5.2}Method}{\reset@font\ptcSfont 42}{section.5.2}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {5.3}Experiments}{\reset@font\ptcSfont 13}{section.5.3}}
+umberline {5.3}Experiments}{\reset@font\ptcSfont 42}{section.5.3}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
+e \numberline {5.3.1}Evaluation Method}{\reset@font\ptcSSfont 43}{subsection.5.
+3.1}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {5.4}Analysis}{\reset@font\ptcSfont 13}{section.5.4}}
+umberline {5.4}Results and discussion}{\reset@font\ptcSfont 44}{section.5.4}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {5.5}Conclusion}{\reset@font\ptcSfont 13}{section.5.5}}
+umberline {5.5}Results and Discussion}{\reset@font\ptcSfont 44}{section.5.5}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
+umberline {5.6}Conclusion}{\reset@font\ptcSfont 46}{section.5.6}}
 {\reset@font\ptcCfont\mtc@string\contentsline{chapter}{\noexpand \leavevmode \n
 umberline {6}Scuba - Scalable Kernel-based Gene Prioritization}{\reset@font\ptc
-Cfont 15}{chapter.6}}
+Cfont 47}{chapter.6}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {6.1}Motivation}{\reset@font\ptcSfont 15}{section.6.1}}
+umberline {6.1}Motivation}{\reset@font\ptcSfont 47}{section.6.1}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {6.2}Method}{\reset@font\ptcSfont 15}{section.6.2}}
+umberline {6.2}Method}{\reset@font\ptcSfont 50}{section.6.2}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {6.3}Experiments}{\reset@font\ptcSfont 15}{section.6.3}}
+umberline {6.3}Experiments}{\reset@font\ptcSfont 57}{section.6.3}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {6.4}Analysis}{\reset@font\ptcSfont 15}{section.6.4}}
+umberline {6.4}Results and discussion}{\reset@font\ptcSfont 61}{section.6.4}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {6.5}Conclusion}{\reset@font\ptcSfont 15}{section.6.5}}
+umberline {6.5}Conclusion}{\reset@font\ptcSfont 63}{section.6.5}}
 {\reset@font\ptcCfont\mtc@string\contentsline{chapter}{\noexpand \leavevmode \n
 umberline {7}Disjuctive Interconnection Graphs for Disease Gene Prioritization}
-{\reset@font\ptcCfont 17}{chapter.7}}
+{\reset@font\ptcCfont 65}{chapter.7}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {7.1}Motivation}{\reset@font\ptcSfont 17}{section.7.1}}
+umberline {7.1}Motivation}{\reset@font\ptcSfont 65}{section.7.1}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {7.2}Method}{\reset@font\ptcSfont 17}{section.7.2}}
+umberline {7.2}Related work}{\reset@font\ptcSfont 66}{section.7.2}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {7.3}Experiments}{\reset@font\ptcSfont 17}{section.7.3}}
+umberline {7.3}Method}{\reset@font\ptcSfont 68}{section.7.3}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
+e \numberline {7.3.1}Background, definition and notations}{\reset@font\ptcSSfon
+t 68}{subsection.7.3.1}}
+{\reset@font\ptcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmod
+e \numberline {7.3.2}Disjunctive interconnection graph integration}{\reset@font
+\ptcSSfont 70}{subsection.7.3.2}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {7.4}Analysis}{\reset@font\ptcSfont 17}{section.7.4}}
+umberline {7.4}Experiments}{\reset@font\ptcSfont 73}{section.7.4}}
 {\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
-umberline {7.5}Conclusion}{\reset@font\ptcSfont 17}{section.7.5}}
+umberline {7.5}Results and discussion}{\reset@font\ptcSfont 76}{section.7.5}}
+{\reset@font\ptcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \n
+umberline {7.6}Conclusion}{\reset@font\ptcSfont 76}{section.7.6}}
 {\reset@font\ptcCfont\mtc@string\contentsline{chapter}{\noexpand \leavevmode \n
-umberline {8}Conclusion and Future Work}{\reset@font\ptcCfont 19}{chapter.8}}
+umberline {8}Conclusion and Future Work}{\reset@font\ptcCfont 79}{chapter.8}}
 )
 \c@theorem=\count294
 \c@definition=\count295
-Package hyperref Info: Option `colorlinks' set `true' on input line 20.
+Package hyperref Info: Option `colorlinks' set `true' on input line 29.
 
 
 Package hyperref Warning: Option `bookmarks' has already been used,
-(hyperref)                setting the option has no effect on input line 20.
+(hyperref)                setting the option has no effect on input line 29.
 
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
-(./main.aux)
+(./main.aux
+
+LaTeX Warning: Label `fig:example' multiply defined.
+
+
+LaTeX Warning: Label `fig:example@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:example' multiply defined.
+
+
+LaTeX Warning: Label `fig:example@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:01' multiply defined.
+
+
+LaTeX Warning: Label `fig:01@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:01' multiply defined.
+
+
+LaTeX Warning: Label `fig:01@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:histogram-candidate' multiply defined.
+
+
+LaTeX Warning: Label `fig:histogram-candidate@cref' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
  ABD: EveryShipout initializing macros
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1221,7 +1307,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box57
-Package hyperref Info: Link coloring ON on input line 23.
+Package hyperref Info: Link coloring ON on input line 32.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1231,9 +1317,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count302
 )
-LaTeX Info: Redefining \ref on input line 23.
-LaTeX Info: Redefining \pageref on input line 23.
-LaTeX Info: Redefining \nameref on input line 23.
+LaTeX Info: Redefining \ref on input line 32.
+LaTeX Info: Redefining \pageref on input line 32.
+LaTeX Info: Redefining \nameref on input line 32.
 
 (./main.out) (./main.out)
 \@outlinefile=\write5
@@ -1276,7 +1362,7 @@ Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
-) (./titlepage.tex <img/logoUnipd.png, id=220, 943.525pt x 949.5475pt>
+) (./titlepage.tex <img/logoUnipd.png, id=300, 943.525pt x 949.5475pt>
 File: img/logoUnipd.png Graphic file (type png)
  <use img/logoUnipd.png>
 Package pdftex.def Info: img/logoUnipd.png used on input line 5.
@@ -1286,19 +1372,19 @@ Package pdftex.def Info: img/logoUnipd.png used on input line 5.
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 (Font)              using `OT1/cmr/bx/n' instead on input line 25.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 45.
+LaTeX Font Info:    Try loading font information for U+msa on input line 46.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 45.
+LaTeX Font Info:    Try loading font information for U+msb on input line 46.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+stmry on input line 45.
+LaTeX Font Info:    Try loading font information for U+stmry on input line 46.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
-Overfull \hbox (25.96837pt too wide) in paragraph at lines 45--54
+Overfull \hbox (25.96837pt too wide) in paragraph at lines 46--55
  [][] 
  []
 
@@ -1320,56 +1406,83 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
+[5]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
 
-Underfull \vbox (badness 1184) has occurred while \output is active []
-
- [5]
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
 
  []
 
-) [6] (./main.toc [7
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+[6]) [7] [8
+
+] (./main.toc [9
 
 
-
-])
+] [10])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [8] (./text/introduction.tex
-Chapter 1.
-) (./text/background.tex [1
+ [11] [12
 
+] (./text/introduction.tex
+Chapter 1.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
 
 
 ]
+<img/protein_interaction_net.jpeg, id=443, 602.25pt x 515.9275pt>
+File: img/protein_interaction_net.jpeg Graphic file (type jpg)
+
+<use img/protein_interaction_net.jpeg>
+Package pdftex.def Info: img/protein_interaction_net.jpeg used on input line 10
+.
+(pdftex.def)             Requested size: 323.9978pt x 277.56541pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2
+[2 <./img/protein_interaction_net.jpeg>]
 
-]
-Chapter 2.
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [3]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 16.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 16.
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--35
+
+ []
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1378,6 +1491,129 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [4]
+Underfull \hbox (badness 10000) in paragraph at lines 36--38
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+
+ []
+
+) (./text/background.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6]
+Chapter 2.
+[7
+
+]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 17.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 17.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8]
+Underfull \vbox (badness 6559) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9]
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 50.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -1387,15 +1623,52 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5]
+[15]
 
-LaTeX Warning: Citation `ledk' on page 6 undefined on input line 48.
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[18]
+
+LaTeX Warning: Citation `adamic' on page 19 undefined on input line 231.
 
 
-LaTeX Warning: Citation `ledk' on page 6 undefined on input line 52.
+LaTeX Warning: Citation `katz' on page 19 undefined on input line 231.
 
 
-LaTeX Warning: Citation `mrf' on page 6 undefined on input line 54.
+LaTeX Warning: Citation `lhni' on page 19 undefined on input line 231.
+
+
+LaTeX Warning: Citation `matrix-factorization' on page 19 undefined on input li
+ne 231.
+
+
+LaTeX Warning: Citation `matrix-factorization' on page 19 undefined on input li
+ne 233.
+
+
+LaTeX Warning: Citation `nonparametric' on page 19 undefined on input line 234.
+
+
+
+LaTeX Warning: Citation `matrix-factorization' on page 19 undefined on input li
+ne 235.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1403,55 +1676,334 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6]
-
-LaTeX Warning: Citation `mdk' on page 7 undefined on input line 60.
-
-
-LaTeX Warning: Citation `rlk' on page 7 undefined on input line 65.
-
-) (./text/cdnk.tex
+[19]) (./text/cdnk.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[8]
+[20]
 Chapter 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 1--1
 \OT1/cmr/bx/n/20.74 Con-junc-tive Dis-junc-tive Graph
  []
 
-) (./text/jnsl.tex [9
+
+LaTeX Warning: Citation `haussler1999convolution' on page 21 undefined on input
+ line 7.
+
+[21
 
 ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10
+[22]
+
+LaTeX Warning: Citation `gene2004gene' on page 23 undefined on input line 33.
+
+
+LaTeX Warning: Citation `costa2010fast' on page 23 undefined on input line 39.
+
+
+Underfull \vbox (badness 1112) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[23]
+
+LaTeX Warning: Citation `haussler1999convolution' on page 24 undefined on input
+ line 43.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+[]\OT1/cmr/m/n/10.95 Formally, we de-fine two re-la-tions: the \OT1/cmr/m/it/10
+.95 con-junc-tive re-la-tion
+ []
+
+<img/cdnk.pdf, id=640, 145.45921pt x 58.76796pt>
+File: img/cdnk.pdf Graphic file (type pdf)
+ <use img/cdnk.pdf>
+Package pdftex.def Info: img/cdnk.pdf used on input line 75.
+(pdftex.def)             Requested size: 323.9978pt x 130.9192pt.
+
+
+LaTeX Warning: Citation `costa2010fast' on page 25 undefined on input line 81.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[25 <./img/cdnk.pdf>]
+
+LaTeX Warning: Citation `alvarez2005k' on page 26 undefined on input line 96.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[26] <img/k_core.pdf, id=719, 157.34698pt x 68.42719pt>
+File: img/k_core.pdf Graphic file (type pdf)
+ <use img/k_core.pdf>
+Package pdftex.def Info: img/k_core.pdf used on input line 100.
+(pdftex.def)             Requested size: 323.9978pt x 140.90202pt.
+
+
+LaTeX Warning: Citation `tarjan1985decomposition' on page 27 undefined on input
+ line 105.
+
+<img/clique.pdf, id=720, 229.51318pt x 51.43561pt>
+File: img/clique.pdf Graphic file (type pdf)
+ <use img/clique.pdf>
+Package pdftex.def Info: img/clique.pdf used on input line 111.
+(pdftex.def)             Requested size: 323.9978pt x 72.61366pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[27 <./img/k_core.pdf> <./img/clique.pdf
+
+pdfTeX warning: pdflatex (file ./img/clique.pdf): PDF inclusion: multiple pdfs 
+with page group included in a single page
+>]
+
+LaTeX Warning: Citation `goh2007human' on page 28 undefined on input line 123.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[28]
+Overfull \hbox (6.04295pt too wide) in paragraph at lines 140--164
+ [][] 
+ []
+
+
+Overfull \hbox (15.16737pt too wide) in paragraph at lines 171--195
+ [][] 
+ []
+
+) (./text/jnsl.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[29]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[30]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[31]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[32
 
 ]
 Chapter 4.
-) (./text/link_enrichment.tex [11]
+[33]
+
+LaTeX Warning: Citation `adamic' on page 34 undefined on input line 7.
+
+
+LaTeX Warning: Citation `katz' on page 34 undefined on input line 7.
+
+
+LaTeX Warning: Citation `lhni' on page 34 undefined on input line 7.
+
+
+LaTeX Warning: Citation `matrix-factorization' on page 34 undefined on input li
+ne 7.
+
+
+LaTeX Warning: Citation `matrix-factorization' on page 34 undefined on input li
+ne 9.
+
+
+LaTeX Warning: Citation `nonparametric' on page 34 undefined on input line 10.
+
+
+LaTeX Warning: Citation `matrix-factorization' on page 34 undefined on input li
+ne 11.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12
+[34] <img/subgraphs.pdf, id=1969, 201.5946pt x 59.39655pt>
+File: img/subgraphs.pdf Graphic file (type pdf)
+
+<use img/subgraphs.pdf>
+Package pdftex.def Info: img/subgraphs.pdf used on input line 29.
+(pdftex.def)             Requested size: 323.9978pt x 95.46053pt.
+
+Underfull \vbox (badness 2903) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[35]
+
+LaTeX Warning: Citation `nspdk' on page 36 undefined on input line 47.
+
+
+LaTeX Warning: Citation `convolution-kernel' on page 36 undefined on input line
+ 47.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[36 <./img/subgraphs.pdf>]
+
+LaTeX Warning: Citation `svm' on page 37 undefined on input line 65.
+
+
+LaTeX Warning: Citation `matrix-factorization' on page 37 undefined on input li
+ne 68.
+
+
+LaTeX Warning: Citation `protein-protein' on page 37 undefined on input line 70
+.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[37]
+
+LaTeX Warning: Citation `metabolic' on page 38 undefined on input line 72.
+
+
+LaTeX Warning: Citation `nips' on page 38 undefined on input line 74.
+
+
+LaTeX Warning: Citation `condmat' on page 38 undefined on input line 76.
+
+
+LaTeX Warning: Citation `conflict1' on page 38 undefined on input line 78.
+
+
+LaTeX Warning: Citation `conflict2' on page 38 undefined on input line 78.
+
+
+LaTeX Warning: Citation `pa' on page 38 undefined on input line 89.
+
+
+LaTeX Warning: Citation `matrix-factorization' on page 38 undefined on input li
+ne 89.
+
+
+LaTeX Warning: Citation `matrix-factorization' on page 38 undefined on input li
+ne 89.
+
+
+LaTeX Warning: Citation `matrix-factorization' on page 38 undefined on input li
+ne 89.
+
+
+LaTeX Warning: Citation `pa' on page 38 undefined on input line 89.
+
+
+LaTeX Warning: Citation `matrix-factorization' on page 38 undefined on input li
+ne 89.
+
+
+LaTeX Warning: Citation `matrix-factorization' on page 38 undefined on input li
+ne 89.
+
+
+LaTeX Warning: Citation `matrix-factorization' on page 38 undefined on input li
+ne 89.
+
+
+Overfull \hbox (28.79422pt too wide) in paragraph at lines 92--110
+ [][] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[38]) (./text/link_enrichment.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[39]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[40
 
 ]
 Chapter 5.
@@ -1460,49 +2012,795 @@ Underfull \hbox (badness 5756) in paragraph at lines 1--1
 \OT1/cmr/bx/n/20.74 Link En-rich-ment for Diffusion-
  []
 
-) (./text/scuba.tex [13]
+
+LaTeX Warning: Citation `proceeding1' on page 41 undefined on input line 4.
+
+
+LaTeX Warning: Citation `jour1' on page 41 undefined on input line 4.
+
+
+LaTeX Warning: Citation `proceeding2' on page 41 undefined on input line 4.
+
+[41]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[14
+[42]
+
+LaTeX Warning: Citation `jour6' on page 43 undefined on input line 44.
+
+
+LaTeX Warning: Citation `jour5' on page 43 undefined on input line 45.
+
+
+LaTeX Warning: Citation `jour4' on page 43 undefined on input line 47.
+
+
+LaTeX Warning: Citation `jour7' on page 43 undefined on input line 48.
+
+
+LaTeX Warning: Citation `jour7' on page 43 undefined on input line 50.
+
+
+LaTeX Warning: Citation `proceeding3' on page 43 undefined on input line 60.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[43]
+Overfull \hbox (45.78246pt too wide) in paragraph at lines 77--101
+ [][] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[44]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[45]) (./text/scuba.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[46]
+Chapter 6.
+
+LaTeX Warning: Citation `strachan' on page 47 undefined on input line 4.
+
+
+LaTeX Warning: Citation `botstein' on page 47 undefined on input line 4.
+
+
+LaTeX Warning: Citation `omim' on page 47 undefined on input line 4.
+
+
+LaTeX Warning: Citation `strachan' on page 47 undefined on input line 4.
+
+
+LaTeX Warning: Citation `botstein' on page 47 undefined on input line 4.
+
+
+LaTeX Warning: Citation `strachan' on page 47 undefined on input line 6.
+
+
+LaTeX Warning: Citation `salgado' on page 47 undefined on input line 6.
+
+
+LaTeX Warning: Citation `strachan' on page 47 undefined on input line 6.
+
+[47
 
 ]
-Chapter 6.
-) (./text/digi.tex [15]
+
+LaTeX Warning: Citation `moreau' on page 48 undefined on input line 8.
+
+
+LaTeX Warning: Citation `ritchie' on page 48 undefined on input line 8.
+
+
+LaTeX Warning: Citation `cristianini' on page 48 undefined on input line 10.
+
+
+LaTeX Warning: Citation `gonen' on page 48 undefined on input line 10.
+
+
+LaTeX Warning: Citation `wang' on page 48 undefined on input line 12.
+
+
+LaTeX Warning: Citation `borgwardt' on page 48 undefined on input line 12.
+
+
+LaTeX Warning: Citation `debie' on page 48 undefined on input line 12.
+
+
+LaTeX Warning: Citation `mkl1class' on page 48 undefined on input line 12.
+
+
+LaTeX Warning: Citation `prodige' on page 48 undefined on input line 12.
+
+
+LaTeX Warning: Citation `zakeri' on page 48 undefined on input line 12.
+
+
+LaTeX Warning: Citation `debie' on page 48 undefined on input line 12.
+
+
+LaTeX Warning: Citation `prodige' on page 48 undefined on input line 12.
+
+
+LaTeX Warning: Citation `chapelle' on page 48 undefined on input line 12.
+
+
+LaTeX Warning: Citation `zakeri' on page 48 undefined on input line 12.
+
+
+LaTeX Warning: Citation `wang' on page 48 undefined on input line 12.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16
+[48]
+
+LaTeX Warning: Citation `easymkl' on page 49 undefined on input line 14.
+
+
+LaTeX Warning: Citation `komd' on page 49 undefined on input line 14.
+
+
+LaTeX Warning: Citation `f3pc' on page 49 undefined on input line 16.
+
+
+LaTeX Warning: Citation `devijver' on page 49 undefined on input line 16.
+
+
+LaTeX Warning: Citation `omim' on page 49 undefined on input line 16.
+
+
+LaTeX Warning: Citation `bornigen' on page 49 undefined on input line 16.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[49]
+
+LaTeX Warning: Citation `prodige' on page 50 undefined on input line 22.
+
+
+LaTeX Warning: Citation `chapelle' on page 50 undefined on input line 22.
+
+
+LaTeX Warning: Citation `dk' on page 50 undefined on input line 31.
+
+
+LaTeX Warning: Citation `mrf' on page 50 undefined on input line 31.
+
+
+LaTeX Warning: Citation `mdk' on page 50 undefined on input line 31.
+
+
+LaTeX Warning: Citation `rlk' on page 50 undefined on input line 31.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[50]
+
+LaTeX Warning: Citation `easymkl' on page 51 undefined on input line 34.
+
+
+LaTeX Warning: Citation `gonen' on page 51 undefined on input line 40.
+
+
+LaTeX Warning: Citation `wang' on page 51 undefined on input line 40.
+
+
+LaTeX Warning: Citation `easymkl' on page 51 undefined on input line 40.
+
+
+LaTeX Warning: Citation `komd' on page 51 undefined on input line 44.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[51]
+
+LaTeX Warning: Citation `komd' on page 52 undefined on input line 48.
+
+
+LaTeX Warning: Citation `easymkl' on page 52 undefined on input line 56.
+
+
+LaTeX Warning: Citation `pyros' on page 52 undefined on input line 65.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[52]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[53]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[54]
+
+LaTeX Warning: Citation `f3pc' on page 55 undefined on input line 99.
+
+
+LaTeX Warning: Citation `hprd' on page 55 undefined on input line 106.
+
+
+LaTeX Warning: Citation `biogps' on page 55 undefined on input line 107.
+
+
+LaTeX Warning: Citation `kegg' on page 55 undefined on input line 108.
+
+
+LaTeX Warning: Citation `reactome' on page 55 undefined on input line 108.
+
+
+LaTeX Warning: Citation `pharmgkb' on page 55 undefined on input line 108.
+
+
+LaTeX Warning: Citation `pid' on page 55 undefined on input line 108.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[55]
+
+LaTeX Warning: Citation `string' on page 56 undefined on input line 109.
+
+
+LaTeX Warning: Citation `f3pc' on page 56 undefined on input line 112.
+
+
+LaTeX Warning: Citation `goh' on page 56 undefined on input line 114.
+
+
+LaTeX Warning: Citation `bornigen' on page 56 undefined on input line 114.
+
+
+LaTeX Warning: Citation `hpo' on page 56 undefined on input line 114.
+
+
+LaTeX Warning: Citation `debie' on page 56 undefined on input line 117.
+
+
+LaTeX Warning: Citation `mkl1class' on page 56 undefined on input line 117.
+
+
+LaTeX Warning: Citation `prodige' on page 56 undefined on input line 117.
+
+
+LaTeX Warning: Citation `f3pc' on page 56 undefined on input line 119.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[56]
+
+LaTeX Warning: Citation `hprd' on page 57 undefined on input line 126.
+
+
+LaTeX Warning: Citation `biogps' on page 57 undefined on input line 127.
+
+
+LaTeX Warning: Citation `kegg' on page 57 undefined on input line 128.
+
+
+LaTeX Warning: Citation `reactome' on page 57 undefined on input line 128.
+
+
+LaTeX Warning: Citation `pharmgkb' on page 57 undefined on input line 128.
+
+
+LaTeX Warning: Citation `pid' on page 57 undefined on input line 128.
+
+
+LaTeX Warning: Citation `string' on page 57 undefined on input line 129.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[57]
+
+LaTeX Warning: Citation `f3pc' on page 58 undefined on input line 132.
+
+
+LaTeX Warning: Citation `goh' on page 58 undefined on input line 134.
+
+
+LaTeX Warning: Citation `bornigen' on page 58 undefined on input line 134.
+
+
+LaTeX Warning: Citation `hpo' on page 58 undefined on input line 134.
+
+
+LaTeX Warning: Citation `debie' on page 58 undefined on input line 137.
+
+
+LaTeX Warning: Citation `mkl1class' on page 58 undefined on input line 137.
+
+
+LaTeX Warning: Citation `prodige' on page 58 undefined on input line 137.
+
+
+LaTeX Warning: Citation `f3pc' on page 58 undefined on input line 142.
+
+
+LaTeX Warning: Citation `goh' on page 58 undefined on input line 142.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[58]
+
+LaTeX Warning: Reference `table: MRF-comparison' on page 59 undefined on input 
+line 146.
+
+
+LaTeX Warning: Citation `f3pc' on page 59 undefined on input line 146.
+
+
+LaTeX Warning: Citation `hanley' on page 59 undefined on input line 146.
+
+
+LaTeX Warning: Citation `kegg' on page 59 undefined on input line 149.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[59]
+
+LaTeX Warning: Citation `bornigen' on page 60 undefined on input line 151.
+
+
+LaTeX Warning: Citation `string' on page 60 undefined on input line 153.
+
+
+LaTeX Warning: Citation `ensembl' on page 60 undefined on input line 153.
+
+
+LaTeX Warning: Citation `mkl1class' on page 60 undefined on input line 155.
+
+
+LaTeX Warning: Citation `prodige' on page 60 undefined on input line 155.
+
+
+LaTeX Warning: Reference `unbiased1' on page 60 undefined on input line 155.
+
+
+LaTeX Warning: Reference `unbiased2' on page 60 undefined on input line 158.
+
+
+LaTeX Warning: Citation `bornigen' on page 60 undefined on input line 158.
+
+
+LaTeX Warning: Citation `genedistiller' on page 60 undefined on input line 158.
+
+
+
+LaTeX Warning: Citation `endeavour' on page 60 undefined on input line 158.
+
+
+LaTeX Warning: Citation `toppgene' on page 60 undefined on input line 158.
+
+
+LaTeX Warning: Citation `bornigen' on page 60 undefined on input line 158.
+
+
+LaTeX Warning: Citation `pinta' on page 60 undefined on input line 158.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[60]
+
+LaTeX Warning: Citation `hpo' on page 61 undefined on input line 160.
+
+
+LaTeX Warning: Reference `hpo' on page 61 undefined on input line 162.
+
+
+LaTeX Warning: Citation `noncode' on page 61 undefined on input line 164.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[61]
+
+LaTeX Warning: Citation `prodige' on page 62 undefined on input line 166.
+
+
+Underfull \vbox (badness 3219) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[62]) (./text/digi.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[63]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[64
 
 ]
 Chapter 7.
-) (./text/conclusion.tex [17]
+[65]
+
+LaTeX Warning: Citation `epu' on page 66 undefined on input line 17.
+
+
+LaTeX Warning: Citation `pudi' on page 66 undefined on input line 17.
+
+
+LaTeX Warning: Citation `dir' on page 66 undefined on input line 19.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18
+[66]
+
+LaTeX Warning: Citation `prodige' on page 67 undefined on input line 21.
+
+
+LaTeX Warning: Citation `mrf' on page 67 undefined on input line 23.
+
+
+LaTeX Warning: Citation `f3pc' on page 67 undefined on input line 25.
+
+
+LaTeX Warning: Citation `scuba' on page 67 undefined on input line 27.
+
+
+LaTeX Warning: Citation `rwr' on page 67 undefined on input line 31.
+
+
+LaTeX Warning: Citation `suspect' on page 67 undefined on input line 33.
+
+
+LaTeX Warning: Citation `toppgene' on page 67 undefined on input line 33.
+
+
+LaTeX Warning: Citation `genedistiller' on page 67 undefined on input line 33.
+
+
+LaTeX Warning: Citation `genewanderer' on page 67 undefined on input line 33.
+
+
+LaTeX Warning: Citation `posmed' on page 67 undefined on input line 33.
+
+
+LaTeX Warning: Citation `candid' on page 67 undefined on input line 33.
+
+
+LaTeX Warning: Citation `endeavour' on page 67 undefined on input line 33.
+
+
+LaTeX Warning: Citation `pinta' on page 67 undefined on input line 33.
+
+
+LaTeX Warning: Citation `unbiased_evaluation' on page 67 undefined on input lin
+e 33.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[67]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[68]
+
+LaTeX Warning: Citation `cdnk' on page 69 undefined on input line 46.
+
+
+LaTeX Warning: Citation `nspdk' on page 69 undefined on input line 46.
+
+File: img/cdnk.pdf Graphic file (type pdf)
+<use img/cdnk.pdf>
+Package pdftex.def Info: img/cdnk.pdf used on input line 49.
+(pdftex.def)             Requested size: 324.04411pt x 113.81506pt.
+
+Underfull \hbox (badness 8170) in paragraph at lines 54--55
+[]\OT1/cmr/m/n/10.95 Formally, It de-fines two re-la-tions: the \OT1/cmr/m/it/1
+0.95 con-junc-tive re-la-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[69]
+
+LaTeX Warning: Citation `cdnk' on page 70 undefined on input line 73.
+
+<img/multilayers.pdf, id=4774, 142.19162pt x 124.42401pt>
+File: img/multilayers.pdf Graphic file (type pdf)
+
+<use img/multilayers.pdf>
+Package pdftex.def Info: img/multilayers.pdf used on input line 77.
+(pdftex.def)             Requested size: 324.00497pt x 170.71806pt.
+
+
+LaTeX Warning: Citation `cdnk' on page 70 undefined on input line 84.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[70]
+File: img/k_core.pdf Graphic file (type pdf)
+ <use img/k_core.pdf>
+Package pdftex.def Info: img/k_core.pdf used on input line 89.
+(pdftex.def)             Requested size: 324.00153pt x 85.3646pt.
+ <img/cliques.pdf, id=4780, 126.88531pt x 43.23184pt>
+File: img/cliques.pdf Graphic file (type pdf)
+
+<use img/cliques.pdf>
+Package pdftex.def Info: img/cliques.pdf used on input line 96.
+(pdftex.def)             Requested size: 324.02179pt x 71.1401pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[71 <./img/multilayers.pdf>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[72 <./img/cliques.pdf>]
+
+LaTeX Warning: Citation `hprd1' on page 73 undefined on input line 131.
+
+
+LaTeX Warning: Citation `hprd2' on page 73 undefined on input line 131.
+
+
+LaTeX Warning: Citation `biogps1' on page 73 undefined on input line 133.
+
+
+LaTeX Warning: Citation `biogps2' on page 73 undefined on input line 133.
+
+
+LaTeX Warning: Citation `kegg' on page 73 undefined on input line 137.
+
+
+LaTeX Warning: Citation `reactome' on page 73 undefined on input line 137.
+
+
+LaTeX Warning: Citation `pharmgkb' on page 73 undefined on input line 137.
+
+
+LaTeX Warning: Citation `pid' on page 73 undefined on input line 137.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[73]
+
+LaTeX Warning: Citation `string' on page 74 undefined on input line 138.
+
+
+LaTeX Warning: Citation `f3pc' on page 74 undefined on input line 144.
+
+
+LaTeX Warning: Citation `unbiased_evaluation' on page 74 undefined on input lin
+e 151.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[74]
+
+LaTeX Warning: Citation `string' on page 75 undefined on input line 154.
+
+
+LaTeX Warning: Citation `ensembl' on page 75 undefined on input line 154.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[75]
+
+LaTeX Warning: Reference `fig:histogram-genomewide' on page 76 undefined on inp
+ut line 161.
+
+
+Overfull \hbox (23.81308pt too wide) in alignment at lines 174--197
+[] [] [] [] [] [] [] 
+ []
+
+<img/histogram_genomewide.png, id=7189, 578.16pt x 433.62pt>
+File: img/histogram_genomewide.png Graphic file (type png)
+
+<use img/histogram_genomewide.png>
+Package pdftex.def Info: img/histogram_genomewide.png used on input line 205.
+(pdftex.def)             Requested size: 180.0pt x 134.99644pt.
+
+<img/histogram_candidate.png, id=7191, 578.16pt x 433.62pt>
+File: img/histogram_candidate.png Graphic file (type png)
+
+<use img/histogram_candidate.png>
+Package pdftex.def Info: img/histogram_candidate.png used on input line 211.
+(pdftex.def)             Requested size: 180.0pt x 134.99644pt.
+) (./text/conclusion.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[76]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[77]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[78 <./img/histogram_genomewide.png> <./img/histogram_candidate.png>]
+Chapter 8.
+) (./main.bbl [79
 
 ]
-Chapter 8.
-) (./main.bbl [19]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[20
+[80
 
-])
+]
+Underfull \hbox (badness 1028) in paragraph at lines 17--21
+\OT1/cmr/m/n/10.95 and mea-sur-ing re-la-tions in small so-cial groups.  \OT1/c
+mr/m/it/10.95 arXiv preprint
+ []
+
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ” in font cmr10!
+[81]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ” in font cmr10!
+
+Underfull \hbox (badness 2073) in paragraph at lines 111--115
+[]\OT1/cmr/m/n/10.95 Michelle Whirl-Carrillo, EM Mc-Don-agh, JM Hebert, Li Gong
+,
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[82])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the main.maf file.
@@ -1524,14 +2822,20 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main.log file.
 
-[21]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 56.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 56.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[83]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 66.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 66.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 56.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 56.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 66.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 66.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6E31AE226C5E27730FDD908B558C9CD5;3544.
+(rerunfilecheck)             Checksum: BF43185BB4E36154717D6FA4112F061E;5156.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1539,32 +2843,46 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
- ) 
+
+LaTeX Warning: There were multiply-defined labels.
+
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 70 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 25502 strings out of 494910
- 450941 string characters out of 6179836
- 593272 words of memory out of 5000000
- 27920 multiletter control sequences out of 15000+600000
- 13821 words of font info for 51 fonts, out of 8000000 for 9000
+ 25928 strings out of 494910
+ 456981 string characters out of 6179836
+ 610272 words of memory out of 5000000
+ 28180 multiletter control sequences out of 15000+600000
+ 17589 words of font info for 65 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 57i,12n,54p,1249b,502s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (29 pages, 340829 bytes).
+ 57i,12n,54p,2473b,662s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (95 pages, 1683102 bytes).
 PDF statistics:
- 506 PDF objects out of 1000 (max. 8388607)
- 454 compressed objects within 5 object streams
- 98 named destinations out of 1000 (max. 500000)
- 442 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 7356 PDF objects out of 7423 (max. 8388607)
+ 4994 compressed objects within 50 object streams
+ 242 named destinations out of 1000 (max. 500000)
+ 647 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -3,49 +3,130 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: plain.bst
 Database file #1: thesisBib.bib
-Warning--I didn't find a database entry for "ledk"
+Warning--I didn't find a database entry for "adamic"
+Warning--I didn't find a database entry for "katz"
+Warning--I didn't find a database entry for "lhni"
+Warning--I didn't find a database entry for "matrix-factorization"
+Warning--I didn't find a database entry for "nonparametric"
+Warning--I didn't find a database entry for "haussler1999convolution"
+Warning--I didn't find a database entry for "gene2004gene"
+Warning--I didn't find a database entry for "costa2010fast"
+Warning--I didn't find a database entry for "alvarez2005k"
+Warning--I didn't find a database entry for "tarjan1985decomposition"
+Warning--I didn't find a database entry for "goh2007human"
+Warning--I didn't find a database entry for "nspdk"
+Warning--I didn't find a database entry for "convolution-kernel"
+Warning--I didn't find a database entry for "svm"
+Warning--I didn't find a database entry for "protein-protein"
+Warning--I didn't find a database entry for "metabolic"
+Warning--I didn't find a database entry for "nips"
+Warning--I didn't find a database entry for "condmat"
+Warning--I didn't find a database entry for "conflict1"
+Warning--I didn't find a database entry for "conflict2"
+Warning--I didn't find a database entry for "pa"
+Warning--I didn't find a database entry for "proceeding1"
+Warning--I didn't find a database entry for "jour1"
+Warning--I didn't find a database entry for "proceeding2"
+Warning--I didn't find a database entry for "jour6"
+Warning--I didn't find a database entry for "jour5"
+Warning--I didn't find a database entry for "jour4"
+Warning--I didn't find a database entry for "jour7"
+Warning--I didn't find a database entry for "proceeding3"
+Warning--I didn't find a database entry for "strachan"
+Warning--I didn't find a database entry for "botstein"
+Warning--I didn't find a database entry for "omim"
+Warning--I didn't find a database entry for "salgado"
+Warning--I didn't find a database entry for "moreau"
+Warning--I didn't find a database entry for "ritchie"
+Warning--I didn't find a database entry for "cristianini"
+Warning--I didn't find a database entry for "gonen"
+Warning--I didn't find a database entry for "wang"
+Warning--I didn't find a database entry for "borgwardt"
+Warning--I didn't find a database entry for "debie"
+Warning--I didn't find a database entry for "mkl1class"
+Warning--I didn't find a database entry for "prodige"
+Warning--I didn't find a database entry for "zakeri"
+Warning--I didn't find a database entry for "chapelle"
+Warning--I didn't find a database entry for "easymkl"
+Warning--I didn't find a database entry for "komd"
+Warning--I didn't find a database entry for "f3pc"
+Warning--I didn't find a database entry for "devijver"
+Warning--I didn't find a database entry for "bornigen"
+Warning--I didn't find a database entry for "dk"
 Warning--I didn't find a database entry for "mrf"
 Warning--I didn't find a database entry for "mdk"
 Warning--I didn't find a database entry for "rlk"
-You've used 3 entries,
+Warning--I didn't find a database entry for "pyros"
+Warning--I didn't find a database entry for "hprd"
+Warning--I didn't find a database entry for "biogps"
+Warning--I didn't find a database entry for "kegg"
+Warning--I didn't find a database entry for "reactome"
+Warning--I didn't find a database entry for "pharmgkb"
+Warning--I didn't find a database entry for "pid"
+Warning--I didn't find a database entry for "string"
+Warning--I didn't find a database entry for "goh"
+Warning--I didn't find a database entry for "hpo"
+Warning--I didn't find a database entry for "hanley"
+Warning--I didn't find a database entry for "ensembl"
+Warning--I didn't find a database entry for "genedistiller"
+Warning--I didn't find a database entry for "endeavour"
+Warning--I didn't find a database entry for "toppgene"
+Warning--I didn't find a database entry for "pinta"
+Warning--I didn't find a database entry for "noncode"
+Warning--I didn't find a database entry for "epu"
+Warning--I didn't find a database entry for "pudi"
+Warning--I didn't find a database entry for "dir"
+Warning--I didn't find a database entry for "scuba"
+Warning--I didn't find a database entry for "rwr"
+Warning--I didn't find a database entry for "suspect"
+Warning--I didn't find a database entry for "genewanderer"
+Warning--I didn't find a database entry for "posmed"
+Warning--I didn't find a database entry for "candid"
+Warning--I didn't find a database entry for "unbiased_evaluation"
+Warning--I didn't find a database entry for "cdnk"
+Warning--I didn't find a database entry for "hprd1"
+Warning--I didn't find a database entry for "hprd2"
+Warning--I didn't find a database entry for "biogps1"
+Warning--I didn't find a database entry for "biogps2"
+You've used 20 entries,
             2118 wiz_defined-function locations,
-            518 strings with 4326 characters,
-and the built_in function-call counts, 866 in all, are:
-= -- 80
-> -- 39
-< -- 1
-+ -- 15
-- -- 12
-* -- 55
-:= -- 153
-add.period$ -- 9
-call.type$ -- 3
-change.case$ -- 13
+            711 strings with 8826 characters,
+and the built_in function-call counts, 8817 in all, are:
+= -- 825
+> -- 593
+< -- 6
++ -- 240
+- -- 214
+* -- 738
+:= -- 1498
+add.period$ -- 62
+call.type$ -- 20
+change.case$ -- 160
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 35
-empty$ -- 72
-format.name$ -- 12
-if$ -- 177
+cite$ -- 20
+duplicate$ -- 264
+empty$ -- 556
+format.name$ -- 214
+if$ -- 1764
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 5
-newline$ -- 18
-num.names$ -- 6
-pop$ -- 20
+int.to.str$ -- 20
+missing$ -- 22
+newline$ -- 103
+num.names$ -- 40
+pop$ -- 151
 preamble$ -- 1
-purify$ -- 12
+purify$ -- 142
 quote$ -- 0
-skip$ -- 23
+skip$ -- 193
 stack$ -- 0
-substring$ -- 40
-swap$ -- 4
-text.length$ -- 1
+substring$ -- 511
+swap$ -- 59
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 8
+type$ -- 76
 warning$ -- 0
-while$ -- 8
-width$ -- 4
-write$ -- 34
-(There were 4 warnings)
+while$ -- 74
+width$ -- 22
+write$ -- 223
+(There were 85 warnings)

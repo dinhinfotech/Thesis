@@ -1,18 +1,123 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{boser1992training}
+Bernhard~E Boser, Isabelle~M Guyon, and Vladimir~N Vapnik.
+\newblock A training algorithm for optimal margin classifiers.
+\newblock In {\em Proceedings of the fifth annual workshop on Computational
+  learning theory}, pages 144--152. ACM, 1992.
+
+\bibitem{chatr2014biogrid}
+Andrew Chatr-Aryamontri, Bobby-Joe Breitkreutz, Rose Oughtred, Lorrie Boucher,
+  Sven Heinicke, Daici Chen, Chris Stark, Ashton Breitkreutz, Nadine Kolas,
+  Lara O'donnell, et~al.
+\newblock The biogrid interaction database: 2015 update.
+\newblock {\em Nucleic acids research}, 43(D1):D470--D478, 2014.
+
+\bibitem{chebotarev2006matrix}
+Pavel Chebotarev and Elena Shamis.
+\newblock The matrix-forest theorem and measuring relations in small social
+  groups.
+\newblock {\em arXiv preprint math/0602070}, 2006.
+
+\bibitem{chen2014disease}
+BoLin Chen, Min Li, JianXin Wang, and Fang-Xiang Wu.
+\newblock Disease gene identification by using graph kernels and markov random
+  fields.
+\newblock {\em Science China. Life Sciences}, 57(11):1054, 2014.
 
 \bibitem{cortes1995support}
 Corinna Cortes and Vladimir Vapnik.
 \newblock Support vector machine.
 \newblock {\em Machine learning}, 20(3):273--297, 1995.
 
+\bibitem{fouss2006experimental}
+Francois Fouss, Luh Yen, Alain Pirotte, and Marco Saerens.
+\newblock An experimental investigation of graph kernels on a collaborative
+  recommendation task.
+\newblock In {\em Data Mining, 2006. ICDM'06. Sixth International Conference
+  on}, pages 863--868. IEEE, 2006.
+
+\bibitem{jensen2008string}
+Lars~J Jensen, Michael Kuhn, Manuel Stark, Samuel Chaffron, Chris Creevey, Jean
+  Muller, Tobias Doerks, Philippe Julien, Alexander Roth, Milan Simonovic,
+  et~al.
+\newblock String 8—a global view on proteins and their functional
+  interactions in 630 organisms.
+\newblock {\em Nucleic acids research}, 37(suppl\_1):D412--D416, 2008.
+
+\bibitem{keshava2008human}
+TS~Keshava~Prasad, Renu Goel, Kumaran Kandasamy, Shivakumar Keerthikumar,
+  Sameer Kumar, Suresh Mathivanan, Deepthi Telikicherla, Rajesh Raju, Beema
+  Shafreen, Abhilash Venugopal, et~al.
+\newblock Human protein reference database—2009 update.
+\newblock {\em Nucleic acids research}, 37(suppl\_1):D767--D772, 2008.
+
+\bibitem{kondor2002diffusion}
+Risi~Imre Kondor and John Lafferty.
+\newblock Diffusion kernels on graphs and other discrete input spaces.
+\newblock In {\em ICML}, volume~2, pages 315--322, 2002.
+
+\bibitem{mckusick2007mendelian}
+Victor~A McKusick.
+\newblock Mendelian inheritance in man and its online version, omim.
+\newblock {\em The American Journal of Human Genetics}, 80(4):588--604, 2007.
+
 \bibitem{mitchell1997machine}
 Tom MITCHELL and McGraw HILL.
 \newblock {\em Machine Learning}.
 \newblock McGraw-Hill Science/Engineering/Math, 1997.
 
+\bibitem{ogata1999kegg}
+Hiroyuki Ogata, Susumu Goto, Kazushige Sato, Wataru Fujibuchi, Hidemasa Bono,
+  and Minoru Kanehisa.
+\newblock Kegg: Kyoto encyclopedia of genes and genomes.
+\newblock {\em Nucleic acids research}, 27(1):29--34, 1999.
+
+\bibitem{schaefer2008pid}
+Carl~F Schaefer, Kira Anthony, Shiva Krupa, Jeffrey Buchoff, Matthew Day, Timo
+  Hannay, and Kenneth~H Buetow.
+\newblock Pid: the pathway interaction database.
+\newblock {\em Nucleic acids research}, 37(suppl\_1):D674--D679, 2008.
+
+\bibitem{van2006text}
+Marc~A Van~Driel, Jorn Bruggeman, Gert Vriend, Han~G Brunner, and Jack~AM
+  Leunissen.
+\newblock A text-mining analysis of the human phenome.
+\newblock {\em European journal of human genetics: EJHG}, 14(5):535, 2006.
+
+\bibitem{vapnik1963pattern}
+Vladimir Vapnik.
+\newblock Pattern recognition using generalized portrait method.
+\newblock {\em Automation and remote control}, 24:774--780, 1963.
+
 \bibitem{vapnik1998statistical}
 Vladimir~Naumovich Vapnik and Vlamimir Vapnik.
 \newblock {\em Statistical learning theory}, volume~1.
 \newblock Wiley New York, 1998.
+
+\bibitem{vastrik2007reactome}
+Imre Vastrik, Peter D'Eustachio, Esther Schmidt, Geeta Joshi-Tope, Gopal
+  Gopinath, David Croft, Bernard de~Bono, Marc Gillespie, Bijay Jassal, Suzanna
+  Lewis, et~al.
+\newblock Reactome: a knowledge base of biologic pathways and processes.
+\newblock {\em Genome biology}, 8(3):R39, 2007.
+
+\bibitem{vert2004primer}
+Jean-Philippe Vert, Koji Tsuda, and Bernhard Sch{\"o}lkopf.
+\newblock A primer on kernel methods.
+\newblock {\em Kernel Methods in Computational Biology}, pages 35--70, 2004.
+
+\bibitem{whirl2012pharmacogenomics}
+Michelle Whirl-Carrillo, EM~McDonagh, JM~Hebert, Li~Gong, K~Sangkuhl, CF~Thorn,
+  RB~Altman, and Teri~E Klein.
+\newblock Pharmacogenomics knowledge for personalized medicine.
+\newblock {\em Clinical Pharmacology \& Therapeutics}, 92(4):414--417, 2012.
+
+\bibitem{wu2009biogps}
+Chunlei Wu, Camilo Orozco, Jason Boyer, Marc Leglise, James Goodale, Serge
+  Batalov, Christopher~L Hodge, James Haase, Jeff Janes, Jon~W Huss, et~al.
+\newblock Biogps: an extensible and customizable portal for querying and
+  organizing gene annotation resources.
+\newblock {\em Genome biology}, 10(11):R130, 2009.
 
 \end{thebibliography}

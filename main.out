@@ -1,53 +1,73 @@
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
-\BOOKMARK [1][-]{section.1.1}{Graph-based Data Integration}{chapter.1}% 2
-\BOOKMARK [1][-]{section.1.2}{Challenges}{chapter.1}% 3
-\BOOKMARK [2][-]{subsection.1.2.1}{Node Similarity Measure}{section.1.2}% 4
+\BOOKMARK [1][-]{section.1.1}{Why graph-based biological data integration?}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Kernel methods for graph-based data integration and challenges}{chapter.1}% 3
+\BOOKMARK [2][-]{subsection.1.2.1}{Definition of node similarity measure}{section.1.2}% 4
 \BOOKMARK [2][-]{subsection.1.2.2}{Sparsity}{section.1.2}% 5
 \BOOKMARK [2][-]{subsection.1.2.3}{Scalability}{section.1.2}% 6
-\BOOKMARK [2][-]{subsection.1.2.4}{Effectiveness and Efficiency}{section.1.2}% 7
-\BOOKMARK [1][-]{section.1.3}{State of the Art Graph-based Data Integration}{chapter.1}% 8
-\BOOKMARK [1][-]{section.1.4}{Contributions}{chapter.1}% 9
-\BOOKMARK [2][-]{subsection.1.4.1}{Conjuctive Disjuctive Graph Node Kernel}{section.1.4}% 10
-\BOOKMARK [2][-]{subsection.1.4.2}{Joint Neighborhood Subgraphs for Link Prediction}{section.1.4}% 11
-\BOOKMARK [2][-]{subsection.1.4.3}{Link Enrichment for Diffusion-based Graph Node Kernels}{section.1.4}% 12
-\BOOKMARK [2][-]{subsection.1.4.4}{Scalable Kenrel-based Gene Prioritization}{section.1.4}% 13
-\BOOKMARK [2][-]{subsection.1.4.5}{Disjunctive Interconnection Graphs for Disease Gene Prioritization}{section.1.4}% 14
-\BOOKMARK [0][-]{chapter.2}{Background}{}% 15
-\BOOKMARK [1][-]{section.2.1}{Machine Learning}{chapter.2}% 16
-\BOOKMARK [1][-]{section.2.2}{Kernel Methods}{chapter.2}% 17
-\BOOKMARK [1][-]{section.2.3}{Kernel functions}{chapter.2}% 18
-\BOOKMARK [2][-]{subsection.2.3.1}{Perceptron Method}{section.2.3}% 19
-\BOOKMARK [2][-]{subsection.2.3.2}{Support Vector Machine}{section.2.3}% 20
-\BOOKMARK [1][-]{section.2.4}{Graph Node Kernels}{chapter.2}% 21
-\BOOKMARK [1][-]{section.2.5}{Disease Gene Prioritization}{chapter.2}% 22
-\BOOKMARK [0][-]{chapter.3}{Conjunctive Disjunctive Graph Node Kernel}{}% 23
-\BOOKMARK [1][-]{section.3.1}{Motivation}{chapter.3}% 24
-\BOOKMARK [1][-]{section.3.2}{Method}{chapter.3}% 25
-\BOOKMARK [1][-]{section.3.3}{Experiments}{chapter.3}% 26
-\BOOKMARK [1][-]{section.3.4}{Analysis}{chapter.3}% 27
-\BOOKMARK [1][-]{section.3.5}{Conclusion}{chapter.3}% 28
-\BOOKMARK [0][-]{chapter.4}{Joint Neighborhood Subgraphs for Link Prediction}{}% 29
-\BOOKMARK [1][-]{section.4.1}{Motivation}{chapter.4}% 30
-\BOOKMARK [1][-]{section.4.2}{Method}{chapter.4}% 31
-\BOOKMARK [1][-]{section.4.3}{Experiments}{chapter.4}% 32
-\BOOKMARK [1][-]{section.4.4}{Analysis}{chapter.4}% 33
-\BOOKMARK [1][-]{section.4.5}{Conclusion}{chapter.4}% 34
-\BOOKMARK [0][-]{chapter.5}{Link Enrichment for Diffusion-based Graph Node Kernel}{}% 35
-\BOOKMARK [1][-]{section.5.1}{Motivation}{chapter.5}% 36
-\BOOKMARK [1][-]{section.5.2}{Method}{chapter.5}% 37
-\BOOKMARK [1][-]{section.5.3}{Experiments}{chapter.5}% 38
-\BOOKMARK [1][-]{section.5.4}{Analysis}{chapter.5}% 39
-\BOOKMARK [1][-]{section.5.5}{Conclusion}{chapter.5}% 40
-\BOOKMARK [0][-]{chapter.6}{Scuba - Scalable Kernel-based Gene Prioritization}{}% 41
-\BOOKMARK [1][-]{section.6.1}{Motivation}{chapter.6}% 42
-\BOOKMARK [1][-]{section.6.2}{Method}{chapter.6}% 43
-\BOOKMARK [1][-]{section.6.3}{Experiments}{chapter.6}% 44
-\BOOKMARK [1][-]{section.6.4}{Analysis}{chapter.6}% 45
-\BOOKMARK [1][-]{section.6.5}{Conclusion}{chapter.6}% 46
-\BOOKMARK [0][-]{chapter.7}{Disjuctive Interconnection Graphs for Disease Gene Prioritization}{}% 47
-\BOOKMARK [1][-]{section.7.1}{Motivation}{chapter.7}% 48
-\BOOKMARK [1][-]{section.7.2}{Method}{chapter.7}% 49
-\BOOKMARK [1][-]{section.7.3}{Experiments}{chapter.7}% 50
-\BOOKMARK [1][-]{section.7.4}{Analysis}{chapter.7}% 51
-\BOOKMARK [1][-]{section.7.5}{Conclusion}{chapter.7}% 52
-\BOOKMARK [0][-]{chapter.8}{Conclusion and Future Work}{}% 53
+\BOOKMARK [2][-]{subsection.1.2.4}{Data integration methods}{section.1.2}% 7
+\BOOKMARK [1][-]{section.1.3}{Contributions}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.4}{Thesis roadmap}{chapter.1}% 9
+\BOOKMARK [0][-]{chapter.2}{Background}{}% 10
+\BOOKMARK [1][-]{section.2.1}{Machine Learning}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.2}{Kernel Methods}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.3}{Kernel functions}{chapter.2}% 13
+\BOOKMARK [2][-]{subsection.2.3.1}{Graph Kernels}{section.2.3}% 14
+\BOOKMARK [2][-]{subsection.2.3.2}{Graph Node Kernels}{section.2.3}% 15
+\BOOKMARK [3][-]{subsubsection.2.3.2.1}{Laplacian exponential diffusion kernel}{subsection.2.3.2}% 16
+\BOOKMARK [3][-]{subsubsection.2.3.2.2}{Exponential diffusion kernel}{subsection.2.3.2}% 17
+\BOOKMARK [3][-]{subsubsection.2.3.2.3}{Markov diffusion kernel}{subsection.2.3.2}% 18
+\BOOKMARK [3][-]{subsubsection.2.3.2.4}{Regularized Laplacian kernel}{subsection.2.3.2}% 19
+\BOOKMARK [1][-]{section.2.4}{Kernel machine}{chapter.2}% 20
+\BOOKMARK [2][-]{subsection.2.4.1}{Perceptron kernel algorithm}{section.2.4}% 21
+\BOOKMARK [2][-]{subsection.2.4.2}{Support vector machine}{section.2.4}% 22
+\BOOKMARK [1][-]{section.2.5}{Disease Gene Prioritization}{chapter.2}% 23
+\BOOKMARK [1][-]{section.2.6}{Biological Datasets}{chapter.2}% 24
+\BOOKMARK [1][-]{section.2.7}{Link prediction}{chapter.2}% 25
+\BOOKMARK [0][-]{chapter.3}{Conjunctive Disjunctive Graph Node Kernel}{}% 26
+\BOOKMARK [1][-]{section.3.1}{Motivation}{chapter.3}% 27
+\BOOKMARK [1][-]{section.3.2}{Method}{chapter.3}% 28
+\BOOKMARK [2][-]{subsection.3.2.1}{Gene Labeling}{section.3.2}% 29
+\BOOKMARK [2][-]{subsection.3.2.2}{Node Graph Kernels}{section.3.2}% 30
+\BOOKMARK [3][-]{subsubsection.3.2.2.1}{The Neighborhood Subgraph Pairwise Distance Kernel}{subsection.3.2.2}% 31
+\BOOKMARK [3][-]{subsubsection.3.2.2.2}{The Conjunctive Disjunctive Node Kernel}{subsection.3.2.2}% 32
+\BOOKMARK [2][-]{subsection.3.2.3}{Real valued node information}{section.3.2}% 33
+\BOOKMARK [2][-]{subsection.3.2.4}{Network Decomposition}{section.3.2}% 34
+\BOOKMARK [1][-]{section.3.3}{Experiments}{chapter.3}% 35
+\BOOKMARK [1][-]{section.3.4}{Results and discussion}{chapter.3}% 36
+\BOOKMARK [1][-]{section.3.5}{Conclusion}{chapter.3}% 37
+\BOOKMARK [0][-]{chapter.4}{Joint Neighborhood Subgraphs for Link Prediction}{}% 38
+\BOOKMARK [1][-]{section.4.1}{Motivation}{chapter.4}% 39
+\BOOKMARK [1][-]{section.4.2}{Method}{chapter.4}% 40
+\BOOKMARK [2][-]{subsection.4.2.1}{Definitions and notation}{section.4.2}% 41
+\BOOKMARK [2][-]{subsection.4.2.2}{Link encoding as subgraphs union}{section.4.2}% 42
+\BOOKMARK [2][-]{subsection.4.2.3}{Node labeling}{section.4.2}% 43
+\BOOKMARK [2][-]{subsection.4.2.4}{The graph kernel}{section.4.2}% 44
+\BOOKMARK [2][-]{subsection.4.2.5}{Joint neighborhood subgraphs link prediction}{section.4.2}% 45
+\BOOKMARK [1][-]{section.4.3}{Experiments}{chapter.4}% 46
+\BOOKMARK [1][-]{section.4.4}{Empirical evaluation}{chapter.4}% 47
+\BOOKMARK [1][-]{section.4.5}{Results and discussion}{chapter.4}% 48
+\BOOKMARK [1][-]{section.4.6}{Conclusion}{chapter.4}% 49
+\BOOKMARK [0][-]{chapter.5}{Link Enrichment for Diffusion-based Graph Node Kernel}{}% 50
+\BOOKMARK [1][-]{section.5.1}{Motivation}{chapter.5}% 51
+\BOOKMARK [1][-]{section.5.2}{Method}{chapter.5}% 52
+\BOOKMARK [1][-]{section.5.3}{Experiments}{chapter.5}% 53
+\BOOKMARK [2][-]{subsection.5.3.1}{Evaluation Method}{section.5.3}% 54
+\BOOKMARK [1][-]{section.5.4}{Results and discussion}{chapter.5}% 55
+\BOOKMARK [1][-]{section.5.5}{Results and Discussion}{chapter.5}% 56
+\BOOKMARK [1][-]{section.5.6}{Conclusion}{chapter.5}% 57
+\BOOKMARK [0][-]{chapter.6}{Scuba - Scalable Kernel-based Gene Prioritization}{}% 58
+\BOOKMARK [1][-]{section.6.1}{Motivation}{chapter.6}% 59
+\BOOKMARK [1][-]{section.6.2}{Method}{chapter.6}% 60
+\BOOKMARK [1][-]{section.6.3}{Experiments}{chapter.6}% 61
+\BOOKMARK [1][-]{section.6.4}{Results and discussion}{chapter.6}% 62
+\BOOKMARK [1][-]{section.6.5}{Conclusion}{chapter.6}% 63
+\BOOKMARK [0][-]{chapter.7}{Disjuctive Interconnection Graphs for Disease Gene Prioritization}{}% 64
+\BOOKMARK [1][-]{section.7.1}{Motivation}{chapter.7}% 65
+\BOOKMARK [1][-]{section.7.2}{Related work}{chapter.7}% 66
+\BOOKMARK [1][-]{section.7.3}{Method}{chapter.7}% 67
+\BOOKMARK [2][-]{subsection.7.3.1}{Background, definition and notations}{section.7.3}% 68
+\BOOKMARK [2][-]{subsection.7.3.2}{Disjunctive interconnection graph integration}{section.7.3}% 69
+\BOOKMARK [1][-]{section.7.4}{Experiments}{chapter.7}% 70
+\BOOKMARK [1][-]{section.7.5}{Results and discussion}{chapter.7}% 71
+\BOOKMARK [1][-]{section.7.6}{Conclusion}{chapter.7}% 72
+\BOOKMARK [0][-]{chapter.8}{Conclusion and Future Work}{}% 73
