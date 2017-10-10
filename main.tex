@@ -1,0 +1,68 @@
+
+\input{utils/macros}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{4}
+\setcounter{secnumdepth}{4}
+
+\newtheorem{theorem}{Theorem}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+\usepackage{pdflscape}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage[toc,page]{appendix}
+\linespread{1.1}
+
+\makeatletter
+\setlength{\@fptop}{0pt}
+\makeatother
+
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Sharelatex Example},
+    bookmarks=true,
+    pdfpagemode=FullScreen,
+}
+
+
+\begin{document}
+
+\sloppy
+
+\pagenumbering{roman}
+\pagestyle{plain}
+\input{titlepage}
+\input{text/acknowledgement.tex}
+\input{text/abstract.tex}
+\cleardoublepage
+\cleardoublepage
+
+\tableofcontents
+
+\cleardoublepage
+
+%*******************************************************
+% Mainmatter
+%*******************************************************
+\pagenumbering{arabic}
+\pagestyle{fancy}
+\cleardoublepage
+\input{text/introduction.tex}
+\input{text/background}
+\input{text/cdnk.tex}
+\input{text/jnsl.tex}
+\input{text/link_enrichment.tex}
+\input{text/scuba.tex}
+\input{text/digi.tex}
+\input{text/conclusion.tex}
+\bibliography{thesisBib}{}
+\bibliographystyle{plain}
+\appendix
+\input{appendix.tex}
+\end{document}
